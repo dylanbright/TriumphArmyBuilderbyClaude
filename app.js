@@ -1,8 +1,14 @@
 // Triumph Army Builder
 
 const MAX_POINTS = 48;
-const CORS_PROXY = 'https://corsproxy.io/?';
 const API_BASE = 'https://meshwesh.wgcwar.com/api/v1/armyLists/';
+
+// CORS proxies to try (in order of preference)
+const CORS_PROXIES = [
+    '', // Try direct first (in case API supports CORS)
+    'https://api.allorigins.win/raw?url=',
+    'https://corsproxy.io/?'
+];
 
 // Troop Types data (from troopTypes.json)
 const TROOP_TYPES_DATA = [
@@ -108,6 +114,28 @@ function loadTroopTypes() {
     });
 }
 
+// Fetch with CORS proxy fallback
+async function fetchWithProxy(apiUrl) {
+    let lastError = null;
+
+    for (const proxy of CORS_PROXIES) {
+        try {
+            const url = proxy ? proxy + encodeURIComponent(apiUrl) : apiUrl;
+            const response = await fetch(url);
+
+            if (response.ok) {
+                return await response.json();
+            }
+            lastError = new Error(`HTTP ${response.status}: ${response.statusText}`);
+        } catch (err) {
+            lastError = err;
+            // Continue to next proxy
+        }
+    }
+
+    throw lastError || new Error('All fetch attempts failed');
+}
+
 // Load army data from API
 async function loadArmy() {
     const armyId = armyIdInput.value.trim();
@@ -121,14 +149,7 @@ async function loadArmy() {
     armyBuilderEl.classList.add('hidden');
 
     try {
-        const url = CORS_PROXY + encodeURIComponent(API_BASE + armyId);
-        const response = await fetch(url);
-
-        if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
-
-        armyData = await response.json();
+        armyData = await fetchWithProxy(API_BASE + armyId);
         troopSelections = {};
         armyBattleCardSelections = {};
 
