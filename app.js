@@ -868,9 +868,9 @@ function openPrintView() {
 
     <div class="total">Total: ${totalPoints} / ${MAX_POINTS} points</div>
 
-    ${battleCardsHtml}
+    <p style="margin-top: 15px; font-size: 0.8rem; color: #666;">* Battle Line troops</p>
 
-    <p style="margin-top: 20px; font-size: 0.8rem; color: #666;">* Battle Line troops</p>
+    ${battleCardsHtml}
 
     <button class="no-print" onclick="window.print()" style="margin-top: 20px; padding: 10px 20px; cursor: pointer;">Print</button>
 </body>
