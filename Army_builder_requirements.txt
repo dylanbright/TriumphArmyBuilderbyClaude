@@ -1,0 +1,43 @@
+We are creating an army builder for the miniatures game Triumph.
+
+In our app, the user will provide the ID of an army list and the app will pull the JSON with data about the army.
+
+We can get army list JSON with a GET to this API endpoint.  You may need to do a proxy thing to get around CORS.
+
+https://meshwesh.wgcwar.com/api/v1/armyLists/5fb1b9d9e1af060017709379
+
+In this example the 5fb1b9d9e1af060017709379 is the ID for the army.
+
+We also need data for the types of troop available to an army.  This is found in troopTypes.json.
+
+Data in the Army list JSON is joined on the "troopTypeCode" value in the army list json, example "troopTypeCode":"CHT" with the "permanentCode" value in troopTypes.json. Example:  "permanentCode":"CHT"
+
+The JSON data for the army includes upper and lower limits for each troop type.  The army list builder will constrain the user so that they always have the minimum and cannot take more than the maximum.
+
+The army builder app will also display the Cost for each troop type and use it to calculate the total cost for the army.  The default limit for an army is 48 points.
+
+
+
+The point limit for an army in this game is 48 points.
+
+
+We also want to include the following data which we get from the army list JSON
+
+Invasion Rating
+
+Maneuver Rating
+	
+Home Topography
+
+General's Troop Type
+
+For each troop type we want to display the following:
+"description" from the army list json.
+"displayName" from troopTypes.json
+"cost" from troopTypes.json
+minimum and maximums from army list json.  Also do not let the user choose less than the minimum or more than the maximum.
+number of points calculated from the number of that type of troop the user has selected.
+
+
+
+We also want to include data about the troop type including minimum, maximum, whether the troops are "Battle Line," any restrictions, and any available battle cards.

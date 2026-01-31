@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triumph Army Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Triumph Army Builder</h1>
+        </header>
+
+        <section class="army-loader">
+            <label for="armyId">Army List ID:</label>
+            <input type="text" id="armyId" placeholder="e.g., 5fb1b9d9e1af060017709379">
+            <button id="loadArmy">Load Army</button>
+        </section>
+
+        <div id="loading" class="loading hidden">Loading army data...</div>
+        <div id="error" class="error hidden"></div>
+
+        <main id="armyBuilder" class="hidden">
+            <section class="army-info">
+                <h2 id="armyName"></h2>
+                <div class="army-stats">
+                    <div class="stat">
+                        <span class="stat-label">Invasion Rating:</span>
+                        <span id="invasionRating"></span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Maneuver Rating:</span>
+                        <span id="maneuverRating"></span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Home Topography:</span>
+                        <span id="homeTopography"></span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">General's Troop Type:</span>
+                        <span id="generalTroopType"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="points-summary">
+                <div class="points-display">
+                    <span class="points-label">Total Points:</span>
+                    <span id="totalPoints">0</span>
+                    <span class="points-separator">/</span>
+                    <span id="maxPoints">48</span>
+                </div>
+                <div id="pointsBar" class="points-bar">
+                    <div id="pointsFill" class="points-fill"></div>
+                </div>
+            </section>
+
+            <section id="armyBattleCards" class="army-battle-cards hidden">
+                <!-- Army battle cards will be rendered here -->
+            </section>
+
+            <section class="troop-options">
+                <h3>Troop Options</h3>
+                <div id="troopList"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

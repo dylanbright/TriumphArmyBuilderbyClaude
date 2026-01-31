@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background-color: #1a1a2e;
+    color: #eee;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #c9a227;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.army-loader {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.army-loader label {
+    font-weight: bold;
+}
+
+.army-loader input {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid #3a3a5a;
+    border-radius: 5px;
+    background-color: #2a2a4a;
+    color: #eee;
+    width: 300px;
+}
+
+.army-loader input:focus {
+    outline: none;
+    border-color: #c9a227;
+}
+
+.army-loader button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #c9a227;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.army-loader button:hover {
+    background-color: #e0b830;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    color: #c9a227;
+    font-size: 1.2rem;
+}
+
+.error {
+    text-align: center;
+    padding: 15px;
+    background-color: #5a2a2a;
+    border: 1px solid #8a4a4a;
+    border-radius: 5px;
+    color: #ff9999;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.army-info {
+    background-color: #2a2a4a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3a3a5a;
+}
+
+.army-info h2 {
+    color: #c9a227;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #c9a227;
+    padding-bottom: 10px;
+}
+
+.army-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.stat {
+    background-color: #1a1a2e;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.stat-label {
+    font-weight: bold;
+    color: #aaa;
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 3px;
+}
+
+.points-summary {
+    background-color: #2a2a4a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3a3a5a;
+}
+
+.points-display {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.points-label {
+    color: #aaa;
+    margin-right: 10px;
+}
+
+#totalPoints {
+    font-weight: bold;
+    color: #4ade80;
+}
+
+#totalPoints.over-limit {
+    color: #ff6b6b;
+}
+
+.points-separator {
+    color: #666;
+    margin: 0 5px;
+}
+
+#maxPoints {
+    color: #aaa;
+}
+
+.points-bar {
+    height: 20px;
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.points-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4ade80, #22c55e);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+    width: 0%;
+}
+
+.points-fill.over-limit {
+    background: linear-gradient(90deg, #ff6b6b, #ef4444);
+}
+
+.troop-options h3 {
+    color: #c9a227;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.troop-card {
+    background-color: #2a2a4a;
+    border: 1px solid #3a3a5a;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: border-color 0.2s;
+}
+
+.troop-card:hover {
+    border-color: #5a5a7a;
+}
+
+.troop-card.battle-line {
+    border-left: 4px solid #c9a227;
+}
+
+.troop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.troop-title {
+    flex: 1;
+}
+
+.troop-description {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #eee;
+    margin-bottom: 5px;
+}
+
+.troop-type-name {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.troop-type-name .cost {
+    color: #4ade80;
+    font-weight: bold;
+}
+
+.troop-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.troop-controls button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a3a5a;
+    color: #eee;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.troop-controls button:hover:not(:disabled) {
+    background-color: #4a4a6a;
+}
+
+.troop-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.troop-count {
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
+
+.troop-points {
+    font-size: 0.9rem;
+    color: #4ade80;
+    min-width: 50px;
+    text-align: right;
+}
+
+.troop-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.meta-item {
+    background-color: #1a1a2e;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.meta-item.battle-line {
+    background-color: #3a3a1a;
+    color: #c9a227;
+}
+
+.meta-item.min-max {
+    color: #aaa;
+}
+
+.meta-item.battle-cards {
+    background-color: #2a3a4a;
+    color: #7dd3fc;
+}
+
+.meta-item.restrictions {
+    background-color: #3a2a2a;
+    color: #fca5a5;
+}
+
+.troop-type-options {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #3a3a5a;
+}
+
+.troop-type-options label {
+    display: block;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+.troop-type-options select {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: 1px solid #3a3a5a;
+    border-radius: 5px;
+    background-color: #1a1a2e;
+    color: #eee;
+    min-width: 200px;
+}
+
+.troop-type-options select:focus {
+    outline: none;
+    border-color: #c9a227;
+}
+
+/* Battle Cards Selection */
+.battle-cards-selection {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1a1a2e;
+    border-radius: 5px;
+}
+
+.battle-cards-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #7dd3fc;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.battle-card-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    margin-bottom: 4px;
+    background-color: #2a2a4a;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.battle-card-option:hover {
+    background-color: #3a3a5a;
+}
+
+.battle-card-option input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #7dd3fc;
+}
+
+.battle-card-option span {
+    color: #eee;
+}
+
+.battle-card-note {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Army Battle Cards Section */
+.army-battle-cards {
+    background-color: #2a2a4a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3a3a5a;
+}
+
+.army-battle-cards h3 {
+    color: #7dd3fc;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.army-battle-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.battle-card-option.army-level {
+    background-color: #1a1a2e;
+    padding: 10px 15px;
+    flex: 1 1 auto;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.battle-card-option.army-level:hover {
+    background-color: #2a3a4a;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .army-loader input {
+        width: 100%;
+    }
+
+    .troop-header {
+        flex-direction: column;
+    }
+
+    .troop-controls {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
