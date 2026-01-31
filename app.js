@@ -765,6 +765,25 @@ function openPrintView() {
         }
     });
 
+    // Build battle cards HTML
+    let battleCardsHtml = '';
+    if (battleCards.length > 0) {
+        battleCardsHtml = '<div class="battle-cards"><h3>Battle Cards</h3>';
+        battleCards.forEach(c => {
+            const cardText = (typeof BATTLE_CARDS_TEXT !== 'undefined' && BATTLE_CARDS_TEXT[c.code])
+                ? BATTLE_CARDS_TEXT[c.code]
+                : '';
+            battleCardsHtml += '<div class="card-entry">';
+            battleCardsHtml += '<h4>' + c.name + (c.cost !== 0 ? ' (' + (c.cost > 0 ? '+' : '') + c.cost + ' pts)' : '') + '</h4>';
+            battleCardsHtml += '<div class="card-for">Applied to: ' + c.troop + '</div>';
+            if (cardText) {
+                battleCardsHtml += '<div class="card-description">' + cardText + '</div>';
+            }
+            battleCardsHtml += '</div>';
+        });
+        battleCardsHtml += '</div>';
+    }
+
     // Build print HTML
     const printHTML = `<!DOCTYPE html>
 <html>
@@ -849,26 +868,7 @@ function openPrintView() {
 
     <div class="total">Total: ${totalPoints} / ${MAX_POINTS} points</div>
 
-    ${(() => {
-        if (battleCards.length === 0) return '';
-
-        // Build battle cards HTML
-        let cardsHtml = '<div class="battle-cards"><h3>Battle Cards</h3>';
-        battleCards.forEach(c => {
-            const cardText = (typeof BATTLE_CARDS_TEXT !== 'undefined' && BATTLE_CARDS_TEXT[c.code])
-                ? BATTLE_CARDS_TEXT[c.code]
-                : '';
-            cardsHtml += '<div class="card-entry">';
-            cardsHtml += '<h4>' + c.name + (c.cost !== 0 ? ' (' + (c.cost > 0 ? '+' : '') + c.cost + ' pts)' : '') + '</h4>';
-            cardsHtml += '<div class="card-for">Applied to: ' + c.troop + '</div>';
-            if (cardText) {
-                cardsHtml += '<div class="card-description">' + cardText + '</div>';
-            }
-            cardsHtml += '</div>';
-        });
-        cardsHtml += '</div>';
-        return cardsHtml;
-    })()}
+    ${battleCardsHtml}
 
     <p style="margin-top: 20px; font-size: 0.8rem; color: #666;">* Battle Line troops</p>
 
