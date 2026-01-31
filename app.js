@@ -708,8 +708,10 @@ function openPrintView() {
 
     // Calculate total and gather troops
     let totalPoints = 0;
+    let armyCardPoints = 0;
     const troops = [];
     const battleCards = [];
+    const armyCards = [];
 
     // Army battle cards
     if (armyData.battleCardEntries) {
@@ -719,8 +721,10 @@ function openPrintView() {
                 if (cardData) {
                     if (cardData.costType === 'flat') {
                         totalPoints += cardData.cost;
+                        armyCardPoints += cardData.cost;
                     }
                     battleCards.push({ code: bc.battleCardCode, name: cardData.displayName, troop: 'Army', cost: cardData.cost });
+                    armyCards.push({ name: cardData.displayName, cost: cardData.cost });
                 }
             }
         });
@@ -806,6 +810,10 @@ function openPrintView() {
         .points { text-align: right; }
         .battle-line { background: #fffde7; }
         .total { text-align: right; font-weight: bold; font-size: 1.1rem; padding: 10px 0; border-top: 2px solid #333; }
+        .army-cards-summary { margin-bottom: 20px; }
+        .army-cards-summary h3 { font-size: 1rem; margin-bottom: 10px; }
+        .army-cards-summary table { width: auto; min-width: 300px; }
+        .subtotal { text-align: right; font-weight: bold; margin-top: 5px; font-size: 0.95rem; }
         .battle-cards { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ddd; }
         .battle-cards h3 { font-size: 1.1rem; margin-bottom: 15px; }
         .card-entry { margin-bottom: 20px; padding: 15px; background: #f9f9f9; border-left: 3px solid #666; }
@@ -845,6 +853,30 @@ function openPrintView() {
         </div>
     </div>
 
+    ${armyCards.length > 0 ? `
+    <div class="army-cards-summary">
+        <h3>Army Battle Cards</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Card</th>
+                    <th class="points">Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${armyCards.map(c => `
+                    <tr>
+                        <td>${c.name}</td>
+                        <td class="points">${c.cost}</td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+        <div class="subtotal">Army Cards Subtotal: ${armyCardPoints} points</div>
+    </div>
+    ` : ''}
+
+    <h3 style="margin-top: 20px; margin-bottom: 10px;">Troops</h3>
     <table>
         <thead>
             <tr>
