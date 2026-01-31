@@ -849,21 +849,26 @@ function openPrintView() {
 
     <div class="total">Total: ${totalPoints} / ${MAX_POINTS} points</div>
 
-    ${battleCards.length > 0 ? `
-        <div class="battle-cards">
-            <h3>Battle Cards</h3>
-            ${battleCards.map(c => {
-                const cardText = typeof BATTLE_CARDS_TEXT !== 'undefined' ? BATTLE_CARDS_TEXT[c.code] : '';
-                return `
-                    <div class="card-entry">
-                        <h4>${c.name}${c.cost !== 0 ? ` (${c.cost > 0 ? '+' : ''}${c.cost} pts)` : ''}</h4>
-                        <div class="card-for">Applied to: ${c.troop}</div>
-                        ${cardText ? `<div class="card-description">${cardText}</div>` : ''}
-                    </div>
-                `;
-            }).join('')}
-        </div>
-    ` : ''}
+    ${(() => {
+        if (battleCards.length === 0) return '';
+
+        // Build battle cards HTML
+        let cardsHtml = '<div class="battle-cards"><h3>Battle Cards</h3>';
+        battleCards.forEach(c => {
+            const cardText = (typeof BATTLE_CARDS_TEXT !== 'undefined' && BATTLE_CARDS_TEXT[c.code])
+                ? BATTLE_CARDS_TEXT[c.code]
+                : '';
+            cardsHtml += '<div class="card-entry">';
+            cardsHtml += '<h4>' + c.name + (c.cost !== 0 ? ' (' + (c.cost > 0 ? '+' : '') + c.cost + ' pts)' : '') + '</h4>';
+            cardsHtml += '<div class="card-for">Applied to: ' + c.troop + '</div>';
+            if (cardText) {
+                cardsHtml += '<div class="card-description">' + cardText + '</div>';
+            }
+            cardsHtml += '</div>';
+        });
+        cardsHtml += '</div>';
+        return cardsHtml;
+    })()}
 
     <p style="margin-top: 20px; font-size: 0.8rem; color: #666;">* Battle Line troops</p>
 
