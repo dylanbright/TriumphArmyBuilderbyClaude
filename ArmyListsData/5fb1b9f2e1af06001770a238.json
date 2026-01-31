@@ -1,0 +1,295 @@
+{
+  "derivedData": {
+    "listStartDate": 279,
+    "listEndDate": 279,
+    "extendedName": "Western Jin Invasion of Wu in 279 AD  279 to 279 AD"
+  },
+  "keywords": [
+    "Chinese"
+  ],
+  "sortId": 316,
+  "sublistId": "e",
+  "name": "Western Jin Invasion of Wu in 279 AD",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed15c431f0015cf1820",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed15c431f0015cf1821",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ed15c431f0015cf1822",
+      "note": ""
+    }
+  ],
+  "listId": 315,
+  "dateRanges": [
+    {
+      "_id": "68c07ed15c431f0015cf1823",
+      "startDate": 279,
+      "endDate": 279
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e8579163001588bf24",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf25",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bf26",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Heavy horsemen armed with spears and polearms, or armed with crossbows and bows",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf27",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf28",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Light horsemen armed with lance or halberd",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf29",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf2a",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf2b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf2c",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tribal horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf2d",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf2e",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Close-fighting foot armed with halberds",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf2f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf30",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Veteran close-fighting foot armed with halberds",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf31",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf32",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Light infantry armed with spear and shield",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf33",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf34",
+          "troopTypeCode": "WWG",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Improvised carriages containing bowmen and crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf35",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf36",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf37",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf38",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tribal spear-throwers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bf39",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf3a",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bf3b",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Dare-to-die troops either in double armor or unarmored",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e8579163001588bf3c",
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bf3d",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bf3e",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e8579163001588bf3f",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Wagon-barricade, abatis or stockades"
+    },
+    {
+      "_id": "68c995e8579163001588bf40",
+      "battleCardCode": "PD",
+      "note": "Wagon-barricade, abatis or stockades",
+      "min": 0,
+      "max": 4
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f2e1af06001770a238"
+}

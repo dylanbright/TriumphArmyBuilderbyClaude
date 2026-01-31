@@ -1,0 +1,643 @@
+{
+  "derivedData": {
+    "listStartDate": 1363,
+    "listEndDate": 1495,
+    "extendedName": "Later Italian Condotta  1363 to 1495 AD"
+  },
+  "keywords": [
+    "Italy",
+    "Condottieri"
+  ],
+  "sortId": 216,
+  "sublistId": "a",
+  "name": "Later Italian Condotta",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec65c431f0015cf1341",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec65c431f0015cf1342",
+      "value": 3,
+      "note": "Normally"
+    },
+    {
+      "_id": "68c07ec65c431f0015cf1343",
+      "value": 4,
+      "note": "Venice under Bartolomeo Colleoni 1437-1468 AD"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        " Hilly"
+      ],
+      "_id": "68c07ec65c431f0015cf1344",
+      "note": "Appenine or Alpine cities"
+    },
+    {
+      "values": [
+        " Marsh"
+      ],
+      "_id": "68c07ec65c431f0015cf1345",
+      "note": "Venice"
+    },
+    {
+      "values": [
+        " Arable "
+      ],
+      "_id": "68c07ec65c431f0015cf1346",
+      "note": "Others"
+    }
+  ],
+  "listId": 218,
+  "dateRanges": [
+    {
+      "_id": "68c07ec65c431f0015cf1347",
+      "startDate": 1363,
+      "endDate": 1495
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e1579163001588ab22",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab23",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Condottieri elmeti",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e1579163001588ab24",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab25",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab26",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Feudal elmeti",
+      "note": "only Naples or Papal",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab27",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab28",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Crossbowmen on horses",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab29",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab2a",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hungarian horse archers",
+      "note": "only Florence, Naples or Papal",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab2b",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab2c",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Militia spearmen or pikemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab2d",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab2e",
+          "troopTypeCode": "PAV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Militia pavisiers and crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e1579163001588ab2f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HL",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab30",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab31",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Militia crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e1579163001588ab32",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab33",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab34",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e1579163001588ab35",
+          "troopTypeCode": "PAV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab36",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab37",
+          "startDate": 1363,
+          "endDate": 1416
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab38",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e1579163001588ab39",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen or swordsmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab3a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab3b",
+          "startDate": 1417,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab3c",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Sword and buckler men",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab3d",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab3e",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Pioneers or armed peasants",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab3f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab40",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bombards and other big guns",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab41",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab42",
+          "startDate": 1420,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab43",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkish horse archers",
+      "note": "only Venice or Naples",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab44",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab45",
+          "startDate": 1420,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab46",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Stradiots",
+      "note": "only Venice",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab47",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab48",
+          "startDate": 1420,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab49",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Handgunners and skirmishing bowmen",
+      "note": "only Venice or Naples",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab4a",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab4b",
+          "startDate": 1420,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab4c",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary pikemen",
+      "note": "only Venice or Naples",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab4d",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab4e",
+          "startDate": 1420,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab4f",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Aragonese targeteers",
+      "note": "only Naples",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588ab50",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e1579163001588ab51",
+          "startDate": 1420,
+          "endDate": 1495
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab52",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Aragonese crossbowmen",
+      "note": "only Naples",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e1579163001588ab53",
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588ab54",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e1579163001588ab55",
+      "dateRange": {
+        "_id": "68c995e1579163001588ab56",
+        "startDate": 1363,
+        "endDate": 1410
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab57",
+          "name": "Free Company allies",
+          "allyArmyList": "68c995cb5791630015887774"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab58",
+      "dateRange": {
+        "_id": "68c995e1579163001588ab59",
+        "startDate": 1400,
+        "endDate": 1440
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab5a",
+          "name": "(only Florence) Swiss Mercenary allies",
+          "allyArmyList": "68c995cb5791630015887862"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab5b",
+      "dateRange": {
+        "_id": "68c995e1579163001588ab5c",
+        "startDate": 1400,
+        "endDate": 1440
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab5d",
+          "name": "(only Florence) Swiss Mercenary allies",
+          "allyArmyList": "68c995cb579163001588786d"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab5e",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab5f",
+          "name": "Italian allies",
+          "allyArmyList": "68c995cc57916300158878e5"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab60",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab61",
+          "name": "Italian allies",
+          "allyArmyList": "68c995cc57916300158878e5"
+        },
+        {
+          "_id": "68c995e1579163001588ab62",
+          "name": "Italian allies",
+          "allyArmyList": "68c995cc57916300158878e5"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab63",
+      "dateRange": {
+        "_id": "68c995e1579163001588ab64",
+        "startDate": 1363,
+        "endDate": 1410
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab65",
+          "name": "Free Company allies",
+          "allyArmyList": "68c995cb5791630015887774"
+        },
+        {
+          "_id": "68c995e1579163001588ab66",
+          "name": "Italian allies",
+          "allyArmyList": "68c995cc57916300158878e5"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab67",
+      "dateRange": {
+        "_id": "68c995e1579163001588ab68",
+        "startDate": 1373,
+        "endDate": 1373
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab69",
+          "name": "(only Padua) Hungarian allies",
+          "allyArmyList": "68c995cc579163001588792b"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588ab6a",
+      "dateRange": {
+        "_id": "68c995e1579163001588ab6b",
+        "startDate": 1420,
+        "endDate": 1495
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588ab6c",
+          "name": "(only Naples) Albanian allies",
+          "allyArmyList": "68c995cc57916300158878f7"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e1579163001588ab6d",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Palisade or ditch and bank"
+    },
+    {
+      "_id": "68c995e1579163001588ab6e",
+      "battleCardCode": "PD",
+      "note": "Ditch and bank fieldworks",
+      "min": 0,
+      "max": 2
+    },
+    {
+      "_id": "68c995e1579163001588ab6f",
+      "battleCardCode": "SW",
+      "note": "Carroccio standard wagon"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e9e1af060017709d51"
+}

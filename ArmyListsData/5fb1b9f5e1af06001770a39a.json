@@ -1,0 +1,172 @@
+{
+  "derivedData": {
+    "listStartDate": -500,
+    "listEndDate": 1100,
+    "extendedName": "Oaxaca  500 BC to 1100 AD"
+  },
+  "keywords": [
+    "American"
+  ],
+  "sortId": 345,
+  "sublistId": "a",
+  "name": "Oaxaca",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf1982",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf1983",
+      "value": 2,
+      "note": "1 BC-200 AD"
+    },
+    {
+      "_id": "68c07ed35c431f0015cf1984",
+      "value": 0,
+      "note": "651-1100 AD"
+    },
+    {
+      "_id": "68c07ed35c431f0015cf1985",
+      "value": 1,
+      "note": "Otherwise"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ed35c431f0015cf1986",
+      "note": ""
+    }
+  ],
+  "listId": 913,
+  "dateRanges": [
+    {
+      "_id": "68c07ed35c431f0015cf1987",
+      "startDate": -500,
+      "endDate": 1100
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995ea579163001588c46c",
+      "min": 8,
+      "max": 16,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c46d",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nobles armed with long spears and clubs or small shields",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c46e",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c46f",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Suit-wearers armed with long spears and clubs or small shields",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c470",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c471",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Garrison troops armed with mixed weapons",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c472",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c473",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Poorly-armed commoners",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c474",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c475",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Peasant skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995ea579163001588c476",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c477",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995ea579163001588c478",
+      "min": null,
+      "max": null,
+      "battleCardCode": "AM",
+      "note": null
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f5e1af06001770a39a"
+}

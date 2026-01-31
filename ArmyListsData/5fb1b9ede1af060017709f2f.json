@@ -1,0 +1,341 @@
+{
+  "derivedData": {
+    "listStartDate": 868,
+    "listEndDate": 905,
+    "extendedName": "Tulunid Egyptian  868 to 905 AD"
+  },
+  "keywords": [
+    "Arab"
+  ],
+  "sortId": 258,
+  "sublistId": "a",
+  "name": "Tulunid Egyptian",
+  "invasionRatings": [
+    {
+      "_id": "68c07eca5c431f0015cf1527",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eca5c431f0015cf1528",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Delta",
+        " Dry"
+      ],
+      "_id": "68c07eca5c431f0015cf1529",
+      "note": ""
+    }
+  ],
+  "listId": 257,
+  "dateRanges": [
+    {
+      "_id": "68c07eca5c431f0015cf152a",
+      "startDate": 868,
+      "endDate": 905
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e4579163001588b383",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b384",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkish, Greek and Armenian ghulams",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b385",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        },
+        {
+          "_id": "68c995e4579163001588b386",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b387",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b388",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Black guard swordsmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b389",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b38a",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Thughur horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b38b",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b38c",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Thughur spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b38d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b38e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b38f",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Thughur skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b390",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b391",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b392",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Zanj spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b393",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b394",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Zanj bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b395",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b396",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b397",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber, Bedouin, or Ghazi lancers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b398",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b399",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ghazi infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b39a",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b39b",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e4579163001588b39c",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b39d",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b39e",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e4579163001588b39f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b3a0",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Egyptian levies or Syrian ahdath militia",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e4579163001588b3a1",
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b3a2",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e4579163001588b3a3",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Entrenchments"
+    },
+    {
+      "_id": "68c995e4579163001588b3a4",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "baggage camels"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9ede1af060017709f2f"
+}

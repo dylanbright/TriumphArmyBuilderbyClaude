@@ -1,0 +1,304 @@
+{
+  "derivedData": {
+    "listStartDate": 211,
+    "listEndDate": 842,
+    "extendedName": "Pictish  211 to 842 AD"
+  },
+  "keywords": [
+    "Cruithni",
+    "Scotland"
+  ],
+  "sortId": 123,
+  "sublistId": "a",
+  "name": "Pictish",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebd5c431f0015cf0e91",
+      "value": 2,
+      "note": "211 to 439 AD"
+    },
+    {
+      "_id": "68c07ebd5c431f0015cf0e92",
+      "value": 1,
+      "note": "440 AD and later"
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebd5c431f0015cf0e93",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ebd5c431f0015cf0e94",
+      "note": ""
+    }
+  ],
+  "listId": 123,
+  "dateRanges": [
+    {
+      "_id": "68c07ebd5c431f0015cf0e95",
+      "startDate": 211,
+      "endDate": 842
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995db57916300158899b5",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995db57916300158899b6",
+          "startDate": 211,
+          "endDate": 499
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899b7",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "2-wheeled mobile battle platforms with dismounting crew and javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db57916300158899b8",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899b9",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db57916300158899ba",
+      "min": 4,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899bb",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db57916300158899bc",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899bd",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db57916300158899be",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899bf",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen or crossbowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db57916300158899c0",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995db57916300158899c1",
+          "startDate": 211,
+          "endDate": 499
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899c2",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Caledonian fierce fighters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db57916300158899c3",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995db57916300158899c4",
+          "startDate": 211,
+          "endDate": 499
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899c5",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Atecotti fierce fighters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995db57916300158899c6",
+      "troopEntries": [
+        {
+          "_id": "68c995db57916300158899c7",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995db57916300158899c8",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995db57916300158899c9",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995db57916300158899ca",
+      "dateRange": {
+        "_id": "68c995db57916300158899cb",
+        "startDate": 500,
+        "endDate": 842
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db57916300158899cc",
+          "name": "Scots-Irish allies",
+          "allyArmyList": "68c995c85791630015887290"
+        }
+      ]
+    },
+    {
+      "_id": "68c995db57916300158899cd",
+      "dateRange": {
+        "_id": "68c995db57916300158899ce",
+        "startDate": 500,
+        "endDate": 842
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db57916300158899cf",
+          "name": "Saxon allies",
+          "allyArmyList": "68c995c957916300158872f9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995db57916300158899d0",
+      "dateRange": {
+        "_id": "68c995db57916300158899d1",
+        "startDate": 500,
+        "endDate": 842
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db57916300158899d2",
+          "name": "Scots-Irish allies",
+          "allyArmyList": "68c995c85791630015887290"
+        },
+        {
+          "_id": "68c995db57916300158899d3",
+          "name": "Saxon allies",
+          "allyArmyList": "68c995c957916300158872f9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995db57916300158899d4",
+      "dateRange": {
+        "_id": "68c995db57916300158899d5",
+        "startDate": 756,
+        "endDate": 756
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db57916300158899d6",
+          "name": "Northumbrian allies",
+          "allyArmyList": "68c995ca57916300158874d4"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995db57916300158899d7",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "cattle herd"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e1e1af060017709895"
+}

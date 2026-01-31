@@ -1,0 +1,390 @@
+{
+  "derivedData": {
+    "listStartDate": 1276,
+    "listEndDate": 1368,
+    "extendedName": "Later Yuan in China  1276 to 1368 AD"
+  },
+  "keywords": [
+    "Mongol",
+    "Chinese"
+  ],
+  "sortId": 329,
+  "sublistId": "d",
+  "name": "Later Yuan in China",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18d6",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18d7",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Hilly",
+        " Forest"
+      ],
+      "_id": "68c07ed25c431f0015cf18d8",
+      "note": ""
+    }
+  ],
+  "listId": 328,
+  "dateRanges": [
+    {
+      "_id": "68c07ed25c431f0015cf18d9",
+      "startDate": 1276,
+      "endDate": 1368
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995ea579163001588c238",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c239",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Guard horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995ea579163001588c23a",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995ea579163001588c23b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c23c",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Chinese guards",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c23d",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [
+        {
+          "_id": "68c995ea579163001588c23e",
+          "startDate": 1276,
+          "endDate": 1300
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c23f",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mongol horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995ea579163001588c240",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995ea579163001588c241",
+      "min": 2,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995ea579163001588c242",
+          "startDate": 1301,
+          "endDate": 1368
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c243",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Menggu jun (Mongol army) settled Mongol horse archers with inferior mounts and training",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995ea579163001588c244",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995ea579163001588c245",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995ea579163001588c246",
+          "startDate": 1301,
+          "endDate": 1368
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c247",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995ea579163001588c248",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mongol horse archers who retained their steppe skills; or Menggu jun settled Mongol horse archers with inferior mounts and training",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995ea579163001588c249",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995ea579163001588c24a",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c24b",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tammachi horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c24c",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c24d",
+          "troopTypeCode": "PAV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "South Chinese halberdiers and crossbowmen in mixed formations",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c24e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c24f",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "South Chinese halberdiers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c250",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c251",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "South Chinese crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995ea579163001588c252",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995ea579163001588c253",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c254",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt shooters and counterweight stone-throwers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c255",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c256",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995ea579163001588c257",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Southern tribal horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c258",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c259",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Southern tribal infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c25a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c25b",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing handgunners",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995ea579163001588c25c",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c25d",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995ea579163001588c25e",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995ea579163001588c25f",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995ea579163001588c260",
+          "name": "North Chinese subjects",
+          "allyArmyList": "68c995d05791630015888102"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f3e1af06001770a2ee"
+}

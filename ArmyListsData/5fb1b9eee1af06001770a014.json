@@ -1,0 +1,285 @@
+{
+  "derivedData": {
+    "listStartDate": 1204,
+    "listEndDate": 1461,
+    "extendedName": "Trapezuntine Byzantine  1204 to 1461 AD"
+  },
+  "keywords": [],
+  "sortId": 279,
+  "sublistId": "a",
+  "name": "Trapezuntine Byzantine",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecc5c431f0015cf160c",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecc5c431f0015cf160d",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ecc5c431f0015cf160e",
+      "note": ""
+    }
+  ],
+  "listId": 278,
+  "dateRanges": [
+    {
+      "_id": "68c07ecc5c431f0015cf160f",
+      "startDate": 1204,
+      "endDate": 1461
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e5579163001588b74e",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e5579163001588b74f",
+          "startDate": 1204,
+          "endDate": 1360
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b750",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Trapezuntine stratiotai lancers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b751",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e5579163001588b752",
+          "startDate": 1361,
+          "endDate": 1461
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b753",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Trapezuntine stratiotai horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b754",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b755",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Trapezuntine or mercenary spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b756",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b757",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e5579163001588b758",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Trapezuntine bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b759",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b75a",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Laz or Tzan horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b75b",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b75c",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Laz or Tzan tribal close-combat infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b75d",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b75e",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Laz or Tzan tribal bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e5579163001588b75f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b760",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b761",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turk horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b762",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b763",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Alan horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e5579163001588b764",
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b765",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e5579163001588b766",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e5579163001588b767",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b768",
+          "name": "Georgian allies",
+          "allyArmyList": "68c995ce5791630015887c53"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b769",
+      "dateRange": {
+        "_id": "68c995e5579163001588b76a",
+        "startDate": 1361,
+        "endDate": 1461
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b76b",
+          "name": "Candar or Karaman Turkish allies",
+          "allyArmyList": "68c995ce5791630015887cc1"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9eee1af06001770a014"
+}

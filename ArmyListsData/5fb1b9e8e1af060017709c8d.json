@@ -1,0 +1,341 @@
+{
+  "derivedData": {
+    "listStartDate": 1363,
+    "listEndDate": 1471,
+    "extendedName": "Early Burgundian  1363 to 1471 AD"
+  },
+  "keywords": [
+    "Burgundy"
+  ],
+  "sortId": 204,
+  "sublistId": "a",
+  "name": "Early Burgundian",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec45c431f0015cf127d",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec45c431f0015cf127e",
+      "value": 1,
+      "note": "Normally"
+    },
+    {
+      "_id": "68c07ec45c431f0015cf127f",
+      "value": 0,
+      "note": "Under Charles the Bold 1465-1471 AD"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec45c431f0015cf1280",
+      "note": ""
+    }
+  ],
+  "listId": 206,
+  "dateRanges": [
+    {
+      "_id": "68c07ec45c431f0015cf1281",
+      "startDate": 1363,
+      "endDate": 1471
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e0579163001588a7c3",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7c4",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Men-at-arms and valets",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a7c5",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SV",
+          "note": null
+        },
+        {
+          "_id": "68c995e0579163001588a7c6",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a7c7",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7c8",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Burgundian or mercenary crossbowmen (or longbowmen, after 1430 AD)",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a7c9",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a7ca",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7cb",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "French men-at-arms",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a7cc",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a7cd",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7ce",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Italian men-at-arms",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a7cf",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7d0",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Low countries pikemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a7d1",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7d2",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Low countries crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a7d3",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a7d4",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7d5",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Burgundian or Picard crossbowmen (or longbowmen, after 1430)",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a7d6",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7d7",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Village levy",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a7d8",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7d9",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bombards",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a7da",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e0579163001588a7db",
+          "startDate": 1420,
+          "endDate": 1435
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7dc",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "English men-at-arms",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a7dd",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a7de",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e0579163001588a7df",
+          "startDate": 1420,
+          "endDate": 1435
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7e0",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "English longbowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e0579163001588a7e1",
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a7e2",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e0579163001588a7e3",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Wagon laager"
+    },
+    {
+      "_id": "68c995e0579163001588a7e4",
+      "battleCardCode": "PD",
+      "note": "Stakes to protect longbow",
+      "min": 0,
+      "max": 3
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e8e1af060017709c8d"
+}

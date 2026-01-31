@@ -1,0 +1,328 @@
+{
+  "derivedData": {
+    "listStartDate": 1419,
+    "listEndDate": 1424,
+    "extendedName": "Franco-Scottish  1419 to 1424 AD"
+  },
+  "keywords": [
+    "French",
+    "Scots",
+    "France"
+  ],
+  "sortId": 202.5,
+  "sublistId": "a",
+  "name": "Franco-Scottish",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec45c431f0015cf1268",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec45c431f0015cf1269",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec45c431f0015cf126a",
+      "note": ""
+    }
+  ],
+  "listId": 904,
+  "dateRanges": [
+    {
+      "_id": "68c07ec45c431f0015cf126b",
+      "startDate": 1419,
+      "endDate": 1424
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e0579163001588a755",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a756",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Scots men-at-arms",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a757",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a758",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a759",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Chevaliers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a75a",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a75b",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a75c",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Scots feudal bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a75d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a75e",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a75f",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e0579163001588a760",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Scots axemen or Highland bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a761",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a762",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "French Bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a763",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a764",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a765",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "French crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a766",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a767",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a768",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Genoese crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a769",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a76a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spanish crossbowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a76b",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a76c",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spearmen with pavise",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a76d",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a76e",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Voulgier",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a76f",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a770",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ribauds",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a771",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a772",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Peasant levy",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e0579163001588a773",
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a774",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e8e1af060017709c78"
+}

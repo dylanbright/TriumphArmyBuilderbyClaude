@@ -1,0 +1,289 @@
+{
+  "derivedData": {
+    "listStartDate": -460,
+    "listEndDate": -335,
+    "extendedName": "Saitic Egyptian Rebellions  460 to 335 BC"
+  },
+  "keywords": [],
+  "sortId": 45,
+  "sublistId": "b",
+  "name": "Saitic Egyptian Rebellions",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb45c431f0015cf0a81",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb45c431f0015cf0a82",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Delta"
+      ],
+      "_id": "68c07eb45c431f0015cf0a83",
+      "note": ""
+    }
+  ],
+  "listId": 45,
+  "dateRanges": [
+    {
+      "_id": "68c07eb45c431f0015cf0a84",
+      "startDate": -460,
+      "endDate": -335
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d55791630015888a5c",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a5d",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Egyptian horsemen with javelins or bows",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a5e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a5f",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Guard spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a60",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a61",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Guard bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a62",
+      "min": 4,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a63",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Levy spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a64",
+      "min": 0,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a65",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Untrained and poorly equipped levy foot",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a66",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a67",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Levy bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d55791630015888a68",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d55791630015888a69",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a6a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nubian skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a6b",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a6c",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Levy or Libyan javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888a6d",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a6e",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d55791630015888a6f",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Greek mercenary hoplites",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d55791630015888a70",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HD",
+          "note": "371-343 BC"
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d55791630015888a71",
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888a72",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d55791630015888a73",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d55791630015888a74",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d55791630015888a75",
+          "name": "Kyrenean Greek allies",
+          "allyArmyList": "68c995c55791630015886d68"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d55791630015888a76",
+      "dateRange": {
+        "_id": "68c995d55791630015888a77",
+        "startDate": -359,
+        "endDate": -343
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d55791630015888a78",
+          "name": "Libyan allies",
+          "allyArmyList": "68c995c65791630015886e25"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d55791630015888a79",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack donkeys"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dbe1af060017709485"
+}

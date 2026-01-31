@@ -1,0 +1,388 @@
+{
+  "derivedData": {
+    "listStartDate": -263,
+    "listEndDate": -129,
+    "extendedName": "Attalid Pergamene  263 to 129 BC"
+  },
+  "keywords": [
+    "Pergamon"
+  ],
+  "sortId": 87,
+  "sublistId": "a",
+  "name": "Attalid Pergamene",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb95c431f0015cf0cc5",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb95c431f0015cf0cc6",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07eb95c431f0015cf0cc7",
+      "note": ""
+    }
+  ],
+  "listId": 87,
+  "dateRanges": [
+    {
+      "_id": "68c07eb95c431f0015cf0cc8",
+      "startDate": -263,
+      "endDate": -129
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d857916300158892f5",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d857916300158892f6",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d857916300158892f7",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Lancers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d857916300158892f8",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d857916300158892f9",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Pergamene light horsemen or Galatian horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d857916300158892fa",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d857916300158892fb",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary peltasts",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d857916300158892fc",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d857916300158892fd",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Cretan bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d857916300158892fe",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d857916300158892ff",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Trallian slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889300",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889301",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Galatian fierce fighters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889302",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889303",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Pergamene citizen infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889304",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889305",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mysian or Masdyene infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889306",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889307",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt-shooters and stone-throwers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889308",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d85791630015889309",
+          "startDate": -189,
+          "endDate": -129
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d8579163001588930a",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Formerly Seleucid horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d8579163001588930b",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995d8579163001588930c",
+          "startDate": -189,
+          "endDate": -129
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d8579163001588930d",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Formerly Seleucid phalanx",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d8579163001588930e",
+          "min": null,
+          "max": null,
+          "battleCardCode": "ET",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d8579163001588930f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d85791630015889310",
+          "startDate": -189,
+          "endDate": -129
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889311",
+          "troopTypeCode": "ELE",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Formerly Seleucid War elephants",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d85791630015889312",
+          "min": null,
+          "max": null,
+          "battleCardCode": "ES",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d85791630015889313",
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889314",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d85791630015889315",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d85791630015889316",
+      "dateRange": {
+        "_id": "68c995d85791630015889317",
+        "startDate": -190,
+        "endDate": -190
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d85791630015889318",
+          "name": "Achaean allies",
+          "allyArmyList": "68c995c75791630015886fd7"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d85791630015889319",
+      "dateRange": {
+        "_id": "68c995d8579163001588931a",
+        "startDate": -263,
+        "endDate": -190
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d8579163001588931b",
+          "name": "Achaean League allies",
+          "allyArmyList": "68c995c75791630015886fd7"
+        },
+        {
+          "_id": "68c995d8579163001588931c",
+          "name": "Roman allies",
+          "allyArmyList": "68c995c65791630015886e7f"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d8579163001588931d",
+      "dateRange": {
+        "_id": "68c995d8579163001588931e",
+        "startDate": -189,
+        "endDate": -129
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d8579163001588931f",
+          "name": "Kappadokian allies",
+          "allyArmyList": "68c995c75791630015887027"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d85791630015889320",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack mules"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dee1af0600177096c8"
+}

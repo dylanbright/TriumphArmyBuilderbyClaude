@@ -1,0 +1,304 @@
+{
+  "derivedData": {
+    "listStartDate": 860,
+    "listEndDate": 1054,
+    "extendedName": "Kievan Rus  860 to 1054 AD"
+  },
+  "keywords": [
+    "Russian",
+    "Viking"
+  ],
+  "sortId": 228,
+  "sublistId": "a",
+  "name": "Kievan Rus",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec75c431f0015cf13ce",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec75c431f0015cf13cf",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Forest"
+      ],
+      "_id": "68c07ec75c431f0015cf13d0",
+      "note": ""
+    }
+  ],
+  "listId": 230,
+  "dateRanges": [
+    {
+      "_id": "68c07ec75c431f0015cf13d1",
+      "startDate": 860,
+      "endDate": 1054
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e2579163001588ad83",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad84",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e2579163001588ad85",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Druzhina",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588ad86",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad87",
+      "min": 7,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad88",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588ad89",
+          "min": 0,
+          "max": 5,
+          "battleCardCode": "MI",
+          "note": null
+        },
+        {
+          "_id": "68c995e2579163001588ad8a",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad8b",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad8c",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588ad8d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad8e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad8f",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad90",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588ad91",
+          "startDate": 961,
+          "endDate": 1054
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad92",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Alan, Turk, or Bulgar mercenary horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e2579163001588ad93",
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad94",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e2579163001588ad95",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad96",
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad97",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e2579163001588ad98",
+      "dateRange": {
+        "_id": "68c995e2579163001588ad99",
+        "startDate": 860,
+        "endDate": 1035
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad9a",
+          "name": "Varangian ally",
+          "allyArmyList": "68c995ca57916300158874a9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad9b",
+      "dateRange": {
+        "_id": "68c995e2579163001588ad9c",
+        "startDate": 960,
+        "endDate": 967
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad9d",
+          "name": "Oghuz allies",
+          "allyArmyList": "68c995ce5791630015887d5e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad9e",
+      "dateRange": {
+        "_id": "68c995e2579163001588ad9f",
+        "startDate": 968,
+        "endDate": 971
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ada0",
+          "name": "Danube Bulgar allies",
+          "allyArmyList": "68c995c957916300158873f6"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ada1",
+      "dateRange": {
+        "_id": "68c995e2579163001588ada2",
+        "startDate": 971,
+        "endDate": 1054
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ada3",
+          "name": "Pecheng allies",
+          "allyArmyList": "68c995cc5791630015887a11"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ada4",
+      "dateRange": {
+        "_id": "68c995e2579163001588ada5",
+        "startDate": 1018,
+        "endDate": 1018
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ada6",
+          "name": "Polish allies",
+          "allyArmyList": "68c995cc5791630015887957"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e2579163001588ada7",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "Pack Pony Train"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9eae1af060017709ddd"
+}

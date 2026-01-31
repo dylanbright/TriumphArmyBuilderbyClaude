@@ -1,0 +1,229 @@
+{
+  "derivedData": {
+    "listStartDate": -175,
+    "listEndDate": 300,
+    "extendedName": "Sangam Era Tamil  175 BC to 300 AD"
+  },
+  "keywords": [
+    "Indian"
+  ],
+  "sortId": 103,
+  "sublistId": "a",
+  "name": "Sangam Era Tamil",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebb5c431f0015cf0d8f",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebb5c431f0015cf0d90",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Forest"
+      ],
+      "_id": "68c07ebb5c431f0015cf0d91",
+      "note": ""
+    }
+  ],
+  "listId": 103,
+  "dateRanges": [
+    {
+      "_id": "68c07ebb5c431f0015cf0d92",
+      "startDate": -175,
+      "endDate": 300
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d9579163001588963e",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588963f",
+          "troopTypeCode": "ELE",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "War elephants",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d95791630015889640",
+          "min": null,
+          "max": null,
+          "battleCardCode": "ES",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889641",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889642",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889643",
+      "min": 5,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889644",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Swordsmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d95791630015889645",
+          "min": null,
+          "max": null,
+          "battleCardCode": "ET",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889646",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889647",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d95791630015889648",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Wild tribesmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889649",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588964a",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Villikal bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d9579163001588964b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d9579163001588964c",
+          "startDate": -140,
+          "endDate": 300
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588964d",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d9579163001588964e",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Maiden guard",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d9579163001588964f",
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889650",
+          "troopTypeCode": "ELE",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889651",
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889652",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d95791630015889653",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d95791630015889654",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e0e1af060017709792"
+}

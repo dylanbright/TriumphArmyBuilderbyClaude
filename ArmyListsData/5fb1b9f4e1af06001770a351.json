@@ -1,0 +1,108 @@
+{
+  "derivedData": {
+    "listStartDate": 700,
+    "listEndDate": 878,
+    "extendedName": "Later Emishi  700 to 878 AD"
+  },
+  "keywords": [
+    "Japanese"
+  ],
+  "sortId": 337,
+  "sublistId": "b",
+  "name": "Later Emishi",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf1939",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf193a",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ed35c431f0015cf193b",
+      "note": ""
+    }
+  ],
+  "listId": 336,
+  "dateRanges": [
+    {
+      "_id": "68c07ed35c431f0015cf193c",
+      "startDate": 700,
+      "endDate": 878
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995ea579163001588c3c3",
+      "min": 9,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3c4",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3c5",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3c6",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995ea579163001588c3c7",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995ea579163001588c3c8",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3c9",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f4e1af06001770a351"
+}

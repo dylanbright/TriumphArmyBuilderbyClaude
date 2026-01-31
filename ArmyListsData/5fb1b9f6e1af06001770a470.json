@@ -1,0 +1,127 @@
+{
+  "derivedData": {
+    "listStartDate": 1200,
+    "listEndDate": 1471,
+    "extendedName": "Chanca and Ca\u00f1ari  1200 to 1471 AD"
+  },
+  "keywords": [
+    "Inca",
+    "Ca\u00f1ari",
+    "Canari"
+  ],
+  "sortId": 362,
+  "sublistId": "a",
+  "name": "Chanca and Ca\u00f1ari",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed55c431f0015cf1a4a",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed55c431f0015cf1a4b",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ed55c431f0015cf1a4c",
+      "note": ""
+    }
+  ],
+  "listId": 353,
+  "dateRanges": [
+    {
+      "_id": "68c07ed55c431f0015cf1a4d",
+      "startDate": 1200,
+      "endDate": 1471
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995eb579163001588c5dc",
+      "min": 10,
+      "max": 14,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c5dd",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Infantry armed with long thrusting spears",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c5de",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c5df",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995eb579163001588c5e0",
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c5e1",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995eb579163001588c5e2",
+      "dateRange": {
+        "_id": "68c995eb579163001588c5e3",
+        "startDate": 1200,
+        "endDate": 1440
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995eb579163001588c5e4",
+          "name": "(Chanca only) Quechua vassal allies",
+          "allyArmyList": "68c995d15791630015888290"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995eb579163001588c5e5",
+      "min": null,
+      "max": null,
+      "battleCardCode": "AM",
+      "note": null
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f6e1af06001770a470"
+}

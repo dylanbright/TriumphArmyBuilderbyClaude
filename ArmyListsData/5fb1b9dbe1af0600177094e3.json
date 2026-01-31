@@ -1,0 +1,137 @@
+{
+  "derivedData": {
+    "listStartDate": -669,
+    "listEndDate": -449,
+    "extendedName": "Early Hoplite Theban  669 to 449 BC"
+  },
+  "keywords": [
+    "Thebes",
+    "Boiotian"
+  ],
+  "sortId": 54,
+  "sublistId": "a",
+  "name": "Early Hoplite Theban",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb55c431f0015cf0adf",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb55c431f0015cf0ae0",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07eb55c431f0015cf0ae1",
+      "note": ""
+    }
+  ],
+  "listId": 54,
+  "dateRanges": [
+    {
+      "_id": "68c07eb55c431f0015cf0ae2",
+      "startDate": -669,
+      "endDate": -449
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d55791630015888b70",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888b71",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888b72",
+      "min": 11,
+      "max": 14,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888b73",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hoplites",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888b74",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888b75",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888b76",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888b77",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d55791630015888b78",
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888b79",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dbe1af0600177094e3"
+}

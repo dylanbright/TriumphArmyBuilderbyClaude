@@ -1,0 +1,109 @@
+{
+  "derivedData": {
+    "listStartDate": 1200,
+    "listEndDate": 1540,
+    "extendedName": "Quechua or Aymara  1200 to 1540 AD"
+  },
+  "keywords": [
+    "Inca"
+  ],
+  "sortId": 363,
+  "sublistId": "a",
+  "name": "Quechua or Aymara",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed55c431f0015cf1a50",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed55c431f0015cf1a51",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly",
+        " Dry"
+      ],
+      "_id": "68c07ed55c431f0015cf1a52",
+      "note": ""
+    }
+  ],
+  "listId": 954,
+  "dateRanges": [
+    {
+      "_id": "68c07ed55c431f0015cf1a53",
+      "startDate": 1200,
+      "endDate": 1540
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995eb579163001588c5e6",
+      "min": 6,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c5e7",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tribesmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c5e8",
+      "min": 6,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c5e9",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995eb579163001588c5ea",
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c5eb",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995eb579163001588c5ec",
+      "min": null,
+      "max": null,
+      "battleCardCode": "AM",
+      "note": null
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f6e1af06001770a476"
+}

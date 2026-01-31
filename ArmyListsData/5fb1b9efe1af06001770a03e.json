@@ -1,0 +1,222 @@
+{
+  "derivedData": {
+    "listStartDate": 1336,
+    "listEndDate": 1432,
+    "extendedName": "Jalayarid  1336 to 1432 AD"
+  },
+  "keywords": [
+    "Persian"
+  ],
+  "sortId": 284,
+  "sublistId": "a",
+  "name": "Jalayarid",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecd5c431f0015cf1636",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecd5c431f0015cf1637",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Hilly"
+      ],
+      "_id": "68c07ecd5c431f0015cf1638",
+      "note": ""
+    }
+  ],
+  "listId": 283,
+  "dateRanges": [
+    {
+      "_id": "68c07ecd5c431f0015cf1639",
+      "startDate": 1336,
+      "endDate": 1432
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e6579163001588b805",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b806",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ghulams",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e6579163001588b807",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e6579163001588b808",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b809",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mongol armored horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b80a",
+      "min": 3,
+      "max": 9,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b80b",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mongol horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b80c",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b80d",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkoman horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b80e",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b80f",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bedouin",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b810",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b811",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Foot",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e6579163001588b812",
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b813",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e6579163001588b814",
+      "dateRange": {
+        "_id": "68c995e6579163001588b815",
+        "startDate": 1378,
+        "endDate": 1389
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e6579163001588b816",
+          "name": "Black Sheep Allies",
+          "allyArmyList": "68c995ce5791630015887cfe"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e6579163001588b817",
+      "dateRange": {
+        "_id": "68c995e6579163001588b818",
+        "startDate": 1394,
+        "endDate": 1399
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e6579163001588b819",
+          "name": "Georgian allies",
+          "allyArmyList": "68c995ce5791630015887c53"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e6579163001588b81a",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack camels"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9efe1af06001770a03e"
+}

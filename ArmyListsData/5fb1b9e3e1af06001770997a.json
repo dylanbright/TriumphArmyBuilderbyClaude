@@ -1,0 +1,197 @@
+{
+  "derivedData": {
+    "listStartDate": 433,
+    "listEndDate": 453,
+    "extendedName": "Army of Attila  433 to 453 AD"
+  },
+  "keywords": [
+    "Huns",
+    "Germans",
+    "Steppe"
+  ],
+  "sortId": 139,
+  "sublistId": "c",
+  "name": "Army of Attila",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebe5c431f0015cf0f76",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebe5c431f0015cf0f77",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe"
+      ],
+      "_id": "68c07ebe5c431f0015cf0f78",
+      "note": ""
+    }
+  ],
+  "listId": 139,
+  "dateRanges": [
+    {
+      "_id": "68c07ebe5c431f0015cf0f79",
+      "startDate": 433,
+      "endDate": 453
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995dc5791630015889cea",
+      "min": 4,
+      "max": 7,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889ceb",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hun horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889cec",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889ced",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Alan subject horse archers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889cee",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889cef",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Herul light infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889cf0",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889cf1",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ostrogoth and Gepid horsemen, plus Sciri or Herul subject horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889cf2",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889cf3",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Gepid, Burgundian, Frankish, Rugian, and Thuringian subject infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889cf4",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889cf5",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Gepid bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995dc5791630015889cf6",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995dc5791630015889cf7",
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889cf8",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995dc5791630015889cf9",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Wagon laager"
+    },
+    {
+      "_id": "68c995dc5791630015889cfa",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "livestock herds"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e3e1af06001770997a"
+}

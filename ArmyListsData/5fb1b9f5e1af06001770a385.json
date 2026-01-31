@@ -1,0 +1,112 @@
+{
+  "derivedData": {
+    "listStartDate": -1150,
+    "listEndDate": -400,
+    "extendedName": "Early Settled Meso-American  1150 to 400 BC"
+  },
+  "keywords": [
+    "American"
+  ],
+  "sortId": 343,
+  "sublistId": "a",
+  "name": "Early Settled Meso-American",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf196d",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf196e",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Forest",
+        " Hilly"
+      ],
+      "_id": "68c07ed35c431f0015cf196f",
+      "note": ""
+    }
+  ],
+  "listId": 911,
+  "dateRanges": [
+    {
+      "_id": "68c07ed35c431f0015cf1970",
+      "startDate": -1150,
+      "endDate": -400
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995ea579163001588c451",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c452",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Well equipped or trained infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c453",
+      "min": 21,
+      "max": 24,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c454",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Untrained tribesmen and poorly armed skirmishers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995ea579163001588c455",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c456",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995ea579163001588c457",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c458",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f5e1af06001770a385"
+}

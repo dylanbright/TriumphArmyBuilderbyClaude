@@ -1,0 +1,366 @@
+{
+  "derivedData": {
+    "listStartDate": 467,
+    "listEndDate": 493,
+    "extendedName": "Later Patrician Roman East  467 to 493 AD"
+  },
+  "keywords": [
+    "Roman",
+    "Rome"
+  ],
+  "sortId": 140,
+  "sublistId": "b",
+  "name": "Later Patrician Roman East",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebe5c431f0015cf0f82",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebe5c431f0015cf0f83",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Dry",
+        " Hilly"
+      ],
+      "_id": "68c07ebe5c431f0015cf0f84",
+      "note": ""
+    }
+  ],
+  "listId": 140,
+  "dateRanges": [
+    {
+      "_id": "68c07ebe5c431f0015cf0f85",
+      "startDate": 467,
+      "endDate": 493
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995dc5791630015889d28",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d29",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Germanic or Alan lancers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d2a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d2b",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Clibanarii",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d2c",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d2d",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Unreformed javelin-armed equites",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d2e",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d2f",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Equites reequipped in Hunnish style, or equites sagittarii",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d30",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d31",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Legionarii",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995dc5791630015889d32",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        },
+        {
+          "_id": "68c995dc5791630015889d33",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HL",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889d34",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d35",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Auxilia Palatina",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995dc5791630015889d36",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889d37",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d38",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995dc5791630015889d39",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889d3a",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d3b",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Various garrison, Roman-trained foederati, and downgraded Legio and Auxilia Palatina",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d3c",
+      "min": 1,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d3d",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Isaurians",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d3e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d3f",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Auxilia sagittaria",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d40",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d41",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Alan or Hun horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889d42",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d43",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt-shooters",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995dc5791630015889d44",
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889d45",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995dc5791630015889d46",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995dc5791630015889d47",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995dc5791630015889d48",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dc5791630015889d49",
+          "name": "Ostrogothic allies",
+          "allyArmyList": "68c995c857916300158872c5"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889d4a",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dc5791630015889d4b",
+          "name": "Arab Nomad allies",
+          "allyArmyList": "68c995c757916300158870ff"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995dc5791630015889d4c",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Ditch and bank"
+    },
+    {
+      "_id": "68c995dc5791630015889d4d",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack mules"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e3e1af060017709986"
+}

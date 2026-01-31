@@ -1,0 +1,336 @@
+{
+  "derivedData": {
+    "listStartDate": 1146,
+    "listEndDate": 1529,
+    "extendedName": "Islamic Berber  1146 to 1529 AD"
+  },
+  "keywords": [
+    "Arab",
+    "Berber"
+  ],
+  "sortId": 191,
+  "sublistId": "d",
+  "name": "Islamic Berber",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec35c431f0015cf11ac",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec35c431f0015cf11ad",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Dry"
+      ],
+      "_id": "68c07ec35c431f0015cf11ae",
+      "note": ""
+    }
+  ],
+  "listId": 193,
+  "dateRanges": [
+    {
+      "_id": "68c07ec35c431f0015cf11af",
+      "startDate": 1146,
+      "endDate": 1529
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995df579163001588a470",
+      "min": 3,
+      "max": 7,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a471",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a472",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a473",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Christian guardsmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a474",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995df579163001588a475",
+          "startDate": 1146,
+          "endDate": 1269
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a476",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Arab-Berber horsemen",
+      "note": "only Almohades",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a477",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a478",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Christian Catalan Almughavars",
+      "note": "not Almohades",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a479",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a47a",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a47b",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Andalusian horsemen or Turkish horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a47c",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a47d",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber or Negro spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995df579163001588a47e",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995df579163001588a47f",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a480",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber or Negro bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995df579163001588a481",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a482",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995df579163001588a483",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a484",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a485",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Berber or Negro javelinmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a486",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a487",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spanish mounted men-at-arms or Tuareg charging camelry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995df579163001588a488",
+          "min": null,
+          "max": null,
+          "battleCardCode": "CC",
+          "note": "only Tuareg"
+        }
+      ]
+    },
+    {
+      "_id": "68c995df579163001588a489",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a48a",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Christian or Berber crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995df579163001588a48b",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995df579163001588a48c",
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a48d",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995df579163001588a48e",
+      "dateRange": {
+        "_id": "68c995df579163001588a48f",
+        "startDate": 1244,
+        "endDate": 1340
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995df579163001588a490",
+          "name": "(only Marinids invading Spain) Granadine ally",
+          "allyArmyList": "68c995cb5791630015887689"
+        }
+      ]
+    },
+    {
+      "_id": "68c995df579163001588a491",
+      "dateRange": {
+        "_id": "68c995df579163001588a492",
+        "startDate": 1148,
+        "endDate": 1269
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995df579163001588a493",
+          "name": "(Almohades) Andalusian ally",
+          "allyArmyList": "68c995cb579163001588767c"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e6e1af060017709bb6"
+}

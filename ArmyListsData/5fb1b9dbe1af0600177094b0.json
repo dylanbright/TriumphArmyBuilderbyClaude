@@ -1,0 +1,193 @@
+{
+  "derivedData": {
+    "listStartDate": -1000,
+    "listEndDate": -50,
+    "extendedName": "Sardinian  1000 to 50 BC"
+  },
+  "keywords": [],
+  "sortId": 49,
+  "sublistId": "a",
+  "name": "Sardinian",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb55c431f0015cf0aac",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb55c431f0015cf0aad",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07eb55c431f0015cf0aae",
+      "note": ""
+    }
+  ],
+  "listId": 49,
+  "dateRanges": [
+    {
+      "_id": "68c07eb55c431f0015cf0aaf",
+      "startDate": -1000,
+      "endDate": -50
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d55791630015888ac9",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d55791630015888aca",
+          "startDate": -700,
+          "endDate": -300
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888acb",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "2-horse battle platform for leaders and retinue",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888acc",
+      "min": 6,
+      "max": 15,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888acd",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Light infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d55791630015888ace",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888acf",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d55791630015888ad0",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d55791630015888ad1",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888ad2",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d55791630015888ad3",
+      "troopEntries": [
+        {
+          "_id": "68c995d55791630015888ad4",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d55791630015888ad5",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d55791630015888ad6",
+      "dateRange": {
+        "_id": "68c995d55791630015888ad7",
+        "startDate": -1000,
+        "endDate": -525
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d55791630015888ad8",
+          "name": "Phoenician allies",
+          "allyArmyList": "68c995c55791630015886bda"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d55791630015888ad9",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Ditch and bank"
+    },
+    {
+      "_id": "68c995d55791630015888ada",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "cattle herds or sheep flocks"
+    },
+    {
+      "_id": "68c995d55791630015888adb",
+      "battleCardCode": "PD",
+      "note": "Ditch and palisade or rocks and felled trees",
+      "min": 0,
+      "max": 2
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dbe1af0600177094b0"
+}

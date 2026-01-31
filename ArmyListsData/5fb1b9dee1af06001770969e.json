@@ -1,0 +1,249 @@
+{
+  "derivedData": {
+    "listStartDate": -278,
+    "listEndDate": -146,
+    "extendedName": "Hellenistic Minor States  278 to 146 BC"
+  },
+  "keywords": [
+    "Greek",
+    "Hellenistic"
+  ],
+  "sortId": 83,
+  "sublistId": "h",
+  "name": "Hellenistic Minor States",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb95c431f0015cf0c9a",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb95c431f0015cf0c9b",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        " Arable"
+      ],
+      "_id": "68c07eb95c431f0015cf0c9c",
+      "note": "Coastal cities"
+    },
+    {
+      "values": [
+        " Hilly "
+      ],
+      "_id": "68c07eb95c431f0015cf0c9d",
+      "note": "Inland cities"
+    }
+  ],
+  "listId": 83,
+  "dateRanges": [
+    {
+      "_id": "68c07eb95c431f0015cf0c9e",
+      "startDate": -278,
+      "endDate": -146
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d8579163001588925f",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889260",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "charging Athenian horsemen",
+      "note": "only Athens",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889261",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889262",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tarentine-style horse",
+      "note": "only Athens",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889263",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889264",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "all except Athens",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889265",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889266",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary thureophoroi",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d85791630015889267",
+      "min": 4,
+      "max": 13,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889268",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d85791630015889269",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Citizens, either thureophoroi or unreformed hoplites",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d8579163001588926a",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HD",
+          "note": "only Heavy Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d8579163001588926b",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d8579163001588926c",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d8579163001588926d",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d8579163001588926e",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d8579163001588926f",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d85791630015889270",
+      "troopEntries": [
+        {
+          "_id": "68c995d85791630015889271",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d85791630015889272",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d85791630015889273",
+      "dateRange": {
+        "_id": "68c995d85791630015889274",
+        "startDate": -207,
+        "endDate": -207
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d85791630015889275",
+          "name": "(Eleian) Roman allies",
+          "allyArmyList": "68c995c65791630015886e7f"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d85791630015889276",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack mules"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dee1af06001770969e"
+}

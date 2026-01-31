@@ -1,0 +1,212 @@
+{
+  "derivedData": {
+    "listStartDate": -400,
+    "listEndDate": 75,
+    "extendedName": "Ancient British  400 BC to 75 AD"
+  },
+  "keywords": [
+    "Celtic",
+    "Gallic"
+  ],
+  "sortId": 119,
+  "sublistId": "a",
+  "name": "Ancient British",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebc5c431f0015cf0e66",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebc5c431f0015cf0e67",
+      "value": 1,
+      "note": "Normally"
+    },
+    {
+      "_id": "68c07ebc5c431f0015cf0e68",
+      "value": 2,
+      "note": "Under Caswallon 55-54 BC or Caradoc 43-51 AD"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ebc5c431f0015cf0e69",
+      "note": ""
+    }
+  ],
+  "listId": 119,
+  "dateRanges": [
+    {
+      "_id": "68c07ebc5c431f0015cf0e6a",
+      "startDate": -400,
+      "endDate": 75
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995da579163001588991b",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995da579163001588991c",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "2-wheeled mobile battle platforms with dismounting crew and javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995da579163001588991d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Warrior"
+        }
+      ]
+    },
+    {
+      "_id": "68c995da579163001588991e",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995da579163001588991f",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Pony-riding horsemen armed with javelins but no melee weapons",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995da5791630015889920",
+      "min": 5,
+      "max": 13,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995da5791630015889921",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Fierce fighters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995da5791630015889922",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995da5791630015889923",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995da5791630015889924",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995da5791630015889925",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995da5791630015889926",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Adolescents armed with javelins",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995da5791630015889927",
+      "troopEntries": [
+        {
+          "_id": "68c995da5791630015889928",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995da5791630015889929",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995da579163001588992a",
+      "dateRange": {
+        "_id": "68c995da579163001588992b",
+        "startDate": 51,
+        "endDate": 69
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995da579163001588992c",
+          "name": "Roman allies",
+          "allyArmyList": "68c995c85791630015887234"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995da579163001588992d",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": null
+    },
+    {
+      "_id": "68c995da579163001588992e",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": null
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e1e1af06001770986a"
+}

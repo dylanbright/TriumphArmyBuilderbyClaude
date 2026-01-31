@@ -1,0 +1,142 @@
+{
+  "derivedData": {
+    "listStartDate": -664,
+    "listEndDate": 70,
+    "extendedName": "Later Libyan  664 BC to 70 AD"
+  },
+  "keywords": [],
+  "sortId": 64,
+  "sublistId": "a",
+  "name": "Later Libyan",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb65c431f0015cf0b7d",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb65c431f0015cf0b7e",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Dry"
+      ],
+      "_id": "68c07eb65c431f0015cf0b7f",
+      "note": ""
+    }
+  ],
+  "listId": 64,
+  "dateRanges": [
+    {
+      "_id": "68c07eb65c431f0015cf0b80",
+      "startDate": -664,
+      "endDate": 70
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d75791630015888e08",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888e09",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "4-horse battle platforms with javelin crew",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888e0a",
+      "min": 0,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888e0b",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Libyan heavy infantry with large shields and spears",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888e0c",
+      "min": 7,
+      "max": 15,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888e0d",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tribesmen armed with javelins, throwing sticks, and clubs",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888e0e",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888e0f",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d75791630015888e10",
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888e11",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d75791630015888e12",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack donkeys or cattle herds"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dce1af060017709581"
+}

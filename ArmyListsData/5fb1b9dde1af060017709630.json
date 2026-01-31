@@ -1,0 +1,218 @@
+{
+  "derivedData": {
+    "listStartDate": -700,
+    "listEndDate": 10,
+    "extendedName": "Illyrian  700 BC to 10 AD"
+  },
+  "keywords": [],
+  "sortId": 75,
+  "sublistId": "a",
+  "name": "Illyrian",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb85c431f0015cf0c2c",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb85c431f0015cf0c2d",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07eb85c431f0015cf0c2e",
+      "note": ""
+    }
+  ],
+  "listId": 75,
+  "dateRanges": [
+    {
+      "_id": "68c07eb85c431f0015cf0c2f",
+      "startDate": -700,
+      "endDate": 10
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d757916300158890c9",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d757916300158890ca",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d757916300158890cb",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d757916300158890cc",
+          "startDate": -700,
+          "endDate": -400
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d757916300158890cd",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mobile battle platforms",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d757916300158890ce",
+      "min": 9,
+      "max": 16,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d757916300158890cf",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Light infantry and their armed slaves",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d757916300158890d0",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d757916300158890d1",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen or slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d757916300158890d2",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d757916300158890d3",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d757916300158890d4",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen and shielded javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d757916300158890d5",
+      "troopEntries": [
+        {
+          "_id": "68c995d757916300158890d6",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d757916300158890d7",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d757916300158890d8",
+      "dateRange": {
+        "_id": "68c995d757916300158890d9",
+        "startDate": -385,
+        "endDate": -385
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d757916300158890da",
+          "name": "Syracusan allies",
+          "allyArmyList": "68c995c65791630015886dd7"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d757916300158890db",
+      "dateRange": {
+        "_id": "68c995d757916300158890dc",
+        "startDate": -217,
+        "endDate": -217
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d757916300158890dd",
+          "name": "Roman allies",
+          "allyArmyList": "68c995c65791630015886e7f"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d757916300158890de",
+      "min": null,
+      "max": null,
+      "battleCardCode": "AM",
+      "note": null
+    },
+    {
+      "_id": "68c995d757916300158890df",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack ponies"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dde1af060017709630"
+}

@@ -1,0 +1,274 @@
+{
+  "derivedData": {
+    "listStartDate": -400,
+    "listEndDate": -49,
+    "extendedName": "Massalian  400 to 49 BC"
+  },
+  "keywords": [
+    "Western",
+    "Greek"
+  ],
+  "sortId": 62,
+  "sublistId": "b",
+  "name": "Massalian",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb65c431f0015cf0b53",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb65c431f0015cf0b54",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07eb65c431f0015cf0b55",
+      "note": ""
+    }
+  ],
+  "listId": 62,
+  "dateRanges": [
+    {
+      "_id": "68c07eb65c431f0015cf0b56",
+      "startDate": -400,
+      "endDate": -49
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d75791630015888d47",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d48",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Native horse",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888d49",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d4a",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Gallic mercenary horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888d4b",
+      "min": 4,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d4c",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hoplites",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d75791630015888d4d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HD",
+          "note": "371-210 BC"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d75791630015888d4e",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d4f",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ligurian or Iberian mercenary light infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888d50",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d51",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary Celtiberian scutarii",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888d52",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d53",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Gallic mercenary tribesmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d75791630015888d54",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d55",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d75791630015888d56",
+      "troopEntries": [
+        {
+          "_id": "68c995d75791630015888d57",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d75791630015888d58",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d75791630015888d59",
+      "dateRange": {
+        "_id": "68c995d75791630015888d5a",
+        "startDate": -218,
+        "endDate": -49
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d75791630015888d5b",
+          "name": "Roman ally",
+          "allyArmyList": "68c995c65791630015886e7f"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d75791630015888d5c",
+      "dateRange": {
+        "_id": "68c995d75791630015888d5d",
+        "startDate": -218,
+        "endDate": -49
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d75791630015888d5e",
+          "name": "Roman ally",
+          "allyArmyList": "68c995c85791630015887201"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d75791630015888d5f",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d75791630015888d60",
+          "name": "Ligurian allies",
+          "allyArmyList": "68c995c55791630015886cf8"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d75791630015888d61",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d75791630015888d62",
+          "name": "Gallic allies",
+          "allyArmyList": "68c995c65791630015886e42"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d75791630015888d63",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d75791630015888d64",
+          "name": "Gallic allies",
+          "allyArmyList": "68c995c65791630015886e52"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dce1af060017709557"
+}

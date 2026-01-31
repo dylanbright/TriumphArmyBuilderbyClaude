@@ -1,0 +1,251 @@
+{
+  "derivedData": {
+    "listStartDate": 580,
+    "listEndDate": 1072,
+    "extendedName": "Breton  580 to 1072 AD"
+  },
+  "keywords": [],
+  "sortId": 156,
+  "sublistId": "a",
+  "name": "Breton",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec05c431f0015cf1048",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec05c431f0015cf1049",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec05c431f0015cf104a",
+      "note": ""
+    }
+  ],
+  "listId": 156,
+  "dateRanges": [
+    {
+      "_id": "68c07ec05c431f0015cf104b",
+      "startDate": 580,
+      "endDate": 1072
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995dd5791630015889f89",
+      "min": 5,
+      "max": 9,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889f8a",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889f8b",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889f8c",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889f8d",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889f8e",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Peasants",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889f8f",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889f90",
+          "startDate": 580,
+          "endDate": 930
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889f91",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Unarmored horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889f92",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889f93",
+          "startDate": 580,
+          "endDate": 590
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889f94",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Disguised Saxons",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995dd5791630015889f95",
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889f96",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995dd5791630015889f97",
+      "dateRange": {
+        "_id": "68c995dd5791630015889f98",
+        "startDate": 590,
+        "endDate": 590
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dd5791630015889f99",
+          "name": "Anglo-Saxon allies",
+          "allyArmyList": "68c995ca57916300158874d4"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dd5791630015889f9a",
+      "dateRange": {
+        "_id": "68c995dd5791630015889f9b",
+        "startDate": 843,
+        "endDate": 888
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dd5791630015889f9c",
+          "name": "Norwegian Viking allies",
+          "allyArmyList": "68c995ca57916300158874a3"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dd5791630015889f9d",
+      "dateRange": {
+        "_id": "68c995dd5791630015889f9e",
+        "startDate": 843,
+        "endDate": 888
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dd5791630015889f9f",
+          "name": "Norwegian Viking allies",
+          "allyArmyList": "68c995ca57916300158874a9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dd5791630015889fa0",
+      "dateRange": {
+        "_id": "68c995dd5791630015889fa1",
+        "startDate": 843,
+        "endDate": 888
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dd5791630015889fa2",
+          "name": "Frankish allies",
+          "allyArmyList": "68c995c95791630015887434"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995dd5791630015889fa3",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "990-992 AD: Pits and ditches"
+    },
+    {
+      "_id": "68c995dd5791630015889fa4",
+      "battleCardCode": "PD",
+      "note": "Pits and Ditches",
+      "min": 0,
+      "max": 4
+    },
+    {
+      "_id": "68c995dd5791630015889fa5",
+      "battleCardCode": "DC",
+      "note": "Swap one stand of Horde for a pair of Disguised Saxons",
+      "min": 0,
+      "max": 2
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e4e1af060017709a4c"
+}

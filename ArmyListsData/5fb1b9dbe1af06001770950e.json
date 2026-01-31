@@ -1,0 +1,364 @@
+{
+  "derivedData": {
+    "listStartDate": -630,
+    "listEndDate": -323,
+    "extendedName": "Kyrenean Greek  630 to 323 BC"
+  },
+  "keywords": [],
+  "sortId": 55,
+  "sublistId": "a",
+  "name": "Kyrenean Greek",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb55c431f0015cf0b0a",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb55c431f0015cf0b0b",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07eb55c431f0015cf0b0c",
+      "note": ""
+    }
+  ],
+  "listId": 55,
+  "dateRanges": [
+    {
+      "_id": "68c07eb55c431f0015cf0b0d",
+      "startDate": -630,
+      "endDate": -323
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d65791630015888beb",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bec",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "4-horse battle platforms with javelin-armed crew",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888bed",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bee",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Greek horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888bef",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d65791630015888bf0",
+          "startDate": -313,
+          "endDate": -308
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bf1",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d65791630015888bf2",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Greek horsemen or Xystophoroi",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888bf3",
+      "min": 6,
+      "max": 15,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bf4",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Kyrenean hoplites",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d65791630015888bf5",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": "on carts"
+        },
+        {
+          "_id": "68c995d65791630015888bf6",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HD",
+          "note": "371-308 BC"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d65791630015888bf7",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bf8",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888bf9",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bfa",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888bfb",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995d65791630015888bfc",
+          "startDate": -313,
+          "endDate": -308
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888bfd",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Macedonian pikemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888bfe",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d65791630015888bff",
+          "startDate": -313,
+          "endDate": -308
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888c00",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary peltasts",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888c01",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d65791630015888c02",
+          "startDate": -313,
+          "endDate": -308
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888c03",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d65791630015888c04",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [
+        {
+          "_id": "68c995d65791630015888c05",
+          "startDate": -313,
+          "endDate": -308
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888c06",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d65791630015888c07",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Athenian volunteer spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d65791630015888c08",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HD",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d65791630015888c09",
+      "troopEntries": [
+        {
+          "_id": "68c995d65791630015888c0a",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d65791630015888c0b",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d65791630015888c0c",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d65791630015888c0d",
+          "name": "Libyan allies",
+          "allyArmyList": "68c995c65791630015886e25"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d65791630015888c0e",
+      "dateRange": {
+        "_id": "68c995d65791630015888c0f",
+        "startDate": -322,
+        "endDate": -322
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d65791630015888c10",
+          "name": "Carthaginian allies",
+          "allyArmyList": "68c995c65791630015886d89"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d65791630015888c11",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Ditch and palisade"
+    },
+    {
+      "_id": "68c995d65791630015888c12",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack donkeys"
+    },
+    {
+      "_id": "68c995d65791630015888c13",
+      "battleCardCode": "PD",
+      "note": "Ditch and palisade field defenses",
+      "min": 0,
+      "max": 1
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dbe1af06001770950e"
+}

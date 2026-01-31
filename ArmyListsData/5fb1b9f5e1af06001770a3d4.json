@@ -1,0 +1,187 @@
+{
+  "derivedData": {
+    "listStartDate": 651,
+    "listEndDate": 750,
+    "extendedName": "Teotihuacan Decline  651 to 750 AD"
+  },
+  "keywords": [
+    "American"
+  ],
+  "sortId": 348,
+  "sublistId": "c",
+  "name": "Teotihuacan Decline",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed45c431f0015cf19bc",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed45c431f0015cf19bd",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ed45c431f0015cf19be",
+      "note": ""
+    }
+  ],
+  "listId": 915,
+  "dateRanges": [
+    {
+      "_id": "68c07ed45c431f0015cf19bf",
+      "startDate": 651,
+      "endDate": 750
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995eb579163001588c4de",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c4df",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995eb579163001588c4e0",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nobles with armed mixed long spears and atlatls, possibly with body armor",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c4e1",
+      "min": 4,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c4e2",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Commoners armed with mixed long spears and atlatls",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c4e3",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c4e4",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Disaffected commoners",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c4e5",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c4e6",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing groups of commoners armed with atlatls",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c4e7",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c4e8",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Peasant skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995eb579163001588c4e9",
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c4ea",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995eb579163001588c4eb",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995eb579163001588c4ec",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995eb579163001588c4ed",
+          "name": "Mexican City-State allies",
+          "allyArmyList": "68c995d157916300158881ea"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995eb579163001588c4ee",
+      "min": null,
+      "max": null,
+      "battleCardCode": "AM",
+      "note": null
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f5e1af06001770a3d4"
+}

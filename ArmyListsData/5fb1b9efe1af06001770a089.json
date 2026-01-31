@@ -1,0 +1,317 @@
+{
+  "derivedData": {
+    "listStartDate": 751,
+    "listEndDate": 1206,
+    "extendedName": "Arab Indian  751 to 1206 AD"
+  },
+  "keywords": [],
+  "sortId": 292,
+  "sublistId": "a",
+  "name": "Arab Indian",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecd5c431f0015cf1681",
+      "value": 3,
+      "note": "751 to 834 AD"
+    },
+    {
+      "_id": "68c07ecd5c431f0015cf1682",
+      "value": 1,
+      "note": "Afterwards"
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecd5c431f0015cf1683",
+      "value": 3,
+      "note": "751-834 AD"
+    },
+    {
+      "_id": "68c07ecd5c431f0015cf1684",
+      "value": 1,
+      "note": "835-1206 AD"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Delta",
+        " Dry"
+      ],
+      "_id": "68c07ecd5c431f0015cf1685",
+      "note": ""
+    }
+  ],
+  "listId": 291,
+  "dateRanges": [
+    {
+      "_id": "68c07ecd5c431f0015cf1686",
+      "startDate": 751,
+      "endDate": 1206
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e6579163001588b97b",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b97c",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Arab horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b97d",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e6579163001588b97e",
+          "startDate": 873,
+          "endDate": 1206
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b97f",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Khurasanian-style horsemen, or (after 900) ghulams",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e6579163001588b980",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": "after 900 AD"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e6579163001588b981",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b982",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Sindi horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b983",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b984",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Arab spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e6579163001588b985",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e6579163001588b986",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b987",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e6579163001588b988",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Arab bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e6579163001588b989",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e6579163001588b98a",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b98b",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hindu swordsmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b98c",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b98d",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hindu javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b98e",
+      "min": 2,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b98f",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hindu bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e6579163001588b990",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e6579163001588b991",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b992",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Camp followers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e6579163001588b993",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e6579163001588b994",
+          "startDate": 751,
+          "endDate": 833
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b995",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ghazis",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e6579163001588b996",
+      "troopEntries": [
+        {
+          "_id": "68c995e6579163001588b997",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e6579163001588b998",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e6579163001588b999",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "baggage camels"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9efe1af06001770a089"
+}

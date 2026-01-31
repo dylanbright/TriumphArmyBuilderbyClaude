@@ -1,0 +1,305 @@
+{
+  "derivedData": {
+    "listStartDate": 738,
+    "listEndDate": 965,
+    "extendedName": "Khazar Empire  738 to 965 AD"
+  },
+  "keywords": [],
+  "sortId": 232,
+  "sublistId": "c",
+  "name": "Khazar Empire",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec85c431f0015cf13fa",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec85c431f0015cf13fb",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe"
+      ],
+      "_id": "68c07ec85c431f0015cf13fc",
+      "note": ""
+    }
+  ],
+  "listId": 234,
+  "dateRanges": [
+    {
+      "_id": "68c07ec85c431f0015cf13fd",
+      "startDate": 738,
+      "endDate": 965
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e2579163001588ae3e",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588ae3f",
+          "startDate": 738,
+          "endDate": 895
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae40",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Noble horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ae41",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588ae42",
+          "startDate": 896,
+          "endDate": 965
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae43",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Noble horsemen emphasizing use of the lance",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ae44",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae45",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Guard spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588ae46",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": "Camel-mounted"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ae47",
+      "min": 3,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae48",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Royal Army horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ae49",
+      "min": 1,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae4a",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Khazar,  Magyars, and Volga Bulgar horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ae4b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae4c",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Levy spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588ae4d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": "Camel-mounted"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ae4e",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae4f",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Levy skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ae50",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae51",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt shooters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ae52",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae53",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Slavic light infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e2579163001588ae54",
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae55",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ae56",
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ae57",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e2579163001588ae58",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ae59",
+          "name": "Ras subjects",
+          "allyArmyList": "68c995cc57916300158879f9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ae5a",
+      "dateRange": {
+        "_id": "68c995e2579163001588ae5b",
+        "startDate": 780,
+        "endDate": 965
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ae5c",
+          "name": "Oghuz (Ghuzz, Torki) allies",
+          "allyArmyList": "68c995ce5791630015887d5e"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e2579163001588ae5d",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Wagon laager or palisade"
+    },
+    {
+      "_id": "68c995e2579163001588ae5e",
+      "battleCardCode": "SW",
+      "note": "Khagan's wagon"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9eae1af060017709e02"
+}

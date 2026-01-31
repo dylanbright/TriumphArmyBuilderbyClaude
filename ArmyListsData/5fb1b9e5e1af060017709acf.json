@@ -1,0 +1,287 @@
+{
+  "derivedData": {
+    "listStartDate": 617,
+    "listEndDate": 1016,
+    "extendedName": "Middle Anglo-Saxon  617 to 1016 AD"
+  },
+  "keywords": [
+    "England",
+    "English"
+  ],
+  "sortId": 167,
+  "sublistId": "c",
+  "name": "Middle Anglo-Saxon",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec15c431f0015cf10cb",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec15c431f0015cf10cc",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec15c431f0015cf10cd",
+      "note": ""
+    }
+  ],
+  "listId": 166,
+  "dateRanges": [
+    {
+      "_id": "68c07ec15c431f0015cf10ce",
+      "startDate": 617,
+      "endDate": 1016
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995de579163001588a15d",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a15e",
+          "startDate": 531,
+          "endDate": 616
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a15f",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hird",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a160",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a161",
+          "startDate": 617,
+          "endDate": 849
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a162",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995de579163001588a163",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hird",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a164",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a165",
+          "startDate": 850,
+          "endDate": 1016
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a166",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995de579163001588a167",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Saxon thegns",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a168",
+      "min": 7,
+      "max": 15,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a169",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Select fyrd",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a16a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a16b",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a16c",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a16d",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Scouts and javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a16e",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a16f",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Great fyrd",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995de579163001588a170",
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a171",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995de579163001588a172",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a173",
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a174",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995de579163001588a175",
+      "dateRange": {
+        "_id": "68c995de579163001588a176",
+        "startDate": 1011,
+        "endDate": 1016
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995de579163001588a177",
+          "name": "Viking allies",
+          "allyArmyList": "68c995ca57916300158874a9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a178",
+      "dateRange": {
+        "_id": "68c995de579163001588a179",
+        "startDate": 650,
+        "endDate": 885
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995de579163001588a17a",
+          "name": "Welsh allies",
+          "allyArmyList": "68c995ca57916300158874bb"
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a17b",
+      "dateRange": {
+        "_id": "68c995de579163001588a17c",
+        "startDate": 686,
+        "endDate": 885
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995de579163001588a17d",
+          "name": "(Northumbrian) Pictish allies",
+          "allyArmyList": "68c995c85791630015887299"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e5e1af060017709acf"
+}

@@ -1,0 +1,197 @@
+{
+  "derivedData": {
+    "listStartDate": 1126,
+    "listEndDate": 1199,
+    "extendedName": "Jurchen Jin  1126 to 1199 AD"
+  },
+  "keywords": [
+    "China",
+    "Chinese"
+  ],
+  "sortId": 328,
+  "sublistId": "b",
+  "name": "Jurchen Jin",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18bc",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18bd",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe",
+        " Arable"
+      ],
+      "_id": "68c07ed25c431f0015cf18be",
+      "note": ""
+    }
+  ],
+  "listId": 327,
+  "dateRanges": [
+    {
+      "_id": "68c07ed25c431f0015cf18bf",
+      "startDate": 1126,
+      "endDate": 1199
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e9579163001588c1b9",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1ba",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Jurchen horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c1bb",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1bc",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Jurchen scout horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c1bd",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1be",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": "all"
+        },
+        {
+          "_id": "68c995e9579163001588c1bf",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": "all"
+        }
+      ],
+      "description": "Khitan heavy horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c1c0",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1c1",
+          "troopTypeCode": "WWG",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "War wagons",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e9579163001588c1c2",
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1c3",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e9579163001588c1c4",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c1c5",
+          "name": "Bohai or Chinese subjects",
+          "allyArmyList": "68c995d057916300158880bf"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c1c6",
+      "dateRange": {
+        "_id": "68c995e9579163001588c1c7",
+        "startDate": 1130,
+        "endDate": 1137
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c1c8",
+          "name": "Song allies",
+          "allyArmyList": "68c995d0579163001588808e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c1c9",
+      "dateRange": {
+        "_id": "68c995e9579163001588c1ca",
+        "startDate": 1153,
+        "endDate": 1199
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c1cb",
+          "name": "Tatar, Kereyit, Ongut or similar allies",
+          "allyArmyList": "68c995d0579163001588804c"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e9579163001588c1cc",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pony herd"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f3e1af06001770a2d4"
+}

@@ -1,0 +1,305 @@
+{
+  "derivedData": {
+    "listStartDate": -315,
+    "listEndDate": 550,
+    "extendedName": "Qiang and Di  315 BC to 550 AD"
+  },
+  "keywords": [
+    "Ch'I",
+    "Chiang"
+  ],
+  "sortId": 310,
+  "sublistId": "a",
+  "name": "Qiang and Di",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed05c431f0015cf17a0",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed05c431f0015cf17a1",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ed05c431f0015cf17a2",
+      "note": ""
+    }
+  ],
+  "listId": 309,
+  "dateRanges": [
+    {
+      "_id": "68c07ed05c431f0015cf17a3",
+      "startDate": -315,
+      "endDate": 550
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e8579163001588bd5f",
+      "min": 2,
+      "max": 5,
+      "dateRanges": [
+        {
+          "_id": "68c995e8579163001588bd60",
+          "startDate": -315,
+          "endDate": 302
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd61",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bd62",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e8579163001588bd63",
+          "startDate": 303,
+          "endDate": 550
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd64",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bd65",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Fully armored and barded horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bd66",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e8579163001588bd67",
+          "startDate": 303,
+          "endDate": 550
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd68",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e8579163001588bd69",
+      "min": 4,
+      "max": 14,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd6a",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Unarmored tribal infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e8579163001588bd6b",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e8579163001588bd6c",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd6d",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bd6e",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Armored tribal infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e8579163001588bd6f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e8579163001588bd70",
+      "min": 1,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd71",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e8579163001588bd72",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bd73",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e8579163001588bd74",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e8579163001588bd75",
+          "startDate": 110,
+          "endDate": 214
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd76",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Chinese frontier peasant rebels",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e8579163001588bd77",
+      "troopEntries": [
+        {
+          "_id": "68c995e8579163001588bd78",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e8579163001588bd79",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e8579163001588bd7a",
+      "dateRange": {
+        "_id": "68c995e8579163001588bd7b",
+        "startDate": 110,
+        "endDate": 214
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e8579163001588bd7c",
+          "name": "Xiongnu allies",
+          "allyArmyList": "68c995cf5791630015887f3b"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e8579163001588bd7d",
+      "dateRange": {
+        "_id": "68c995e8579163001588bd7e",
+        "startDate": 303,
+        "endDate": 550
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e8579163001588bd7f",
+          "name": "Xianbei allies",
+          "allyArmyList": "68c995cf5791630015887f9c"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e8579163001588bd80",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "flocks and herds"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9f1e1af06001770a1b2"
+}

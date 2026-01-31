@@ -1,0 +1,333 @@
+{
+  "derivedData": {
+    "listStartDate": 1092,
+    "listEndDate": 1194,
+    "extendedName": "Seljuk Eastern Sultanates  1092 to 1194 AD"
+  },
+  "keywords": [
+    "Turkish",
+    "Steppe"
+  ],
+  "sortId": 265,
+  "sublistId": "c",
+  "name": "Seljuk Eastern Sultanates",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecb5c431f0015cf1573",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecb5c431f0015cf1574",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly",
+        " Steppe"
+      ],
+      "_id": "68c07ecb5c431f0015cf1575",
+      "note": ""
+    }
+  ],
+  "listId": 264,
+  "dateRanges": [
+    {
+      "_id": "68c07ecb5c431f0015cf1576",
+      "startDate": 1092,
+      "endDate": 1194
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e5579163001588b4f4",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b4f5",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Seljuq nobles and retainers, or Seljuq or Mamluk guard",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e5579163001588b4f6",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b4f7",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b4f8",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e5579163001588b4f9",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Askar or ghulams",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e5579163001588b4fa",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": "Elite Cavalry"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b4fb",
+      "min": 4,
+      "max": 7,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b4fc",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkoman horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b4fd",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b4fe",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkish, Armenian, or Kurdish light infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b4ff",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b500",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkish, Armenian, or Kurdish bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e5579163001588b501",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b502",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e5579163001588b503",
+          "startDate": 1092,
+          "endDate": 1157
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b504",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Dailami zupin-men",
+      "note": "only Sultanate of Merv",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e5579163001588b505",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b506",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b507",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Syrian horsemen or bedouin Arabs",
+      "note": "only Sultanate of Hamadan",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b508",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b509",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ahdath militia",
+      "note": "only Sultanate of Hamadan",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e5579163001588b50a",
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b50b",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e5579163001588b50c",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e5579163001588b50d",
+      "dateRange": {
+        "_id": "68c995e5579163001588b50e",
+        "startDate": 1092,
+        "endDate": 1128
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b50f",
+          "name": "(Sultanate of Merv) Qarakhanid Allies",
+          "allyArmyList": "68c995ce5791630015887d5e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b510",
+      "dateRange": {
+        "_id": "68c995e5579163001588b511",
+        "startDate": 1092,
+        "endDate": 1128
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b512",
+          "name": "(Sultanate of Hamadan) Uqaylid Arab Allies",
+          "allyArmyList": "68c995cd5791630015887bea"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b513",
+      "dateRange": {
+        "_id": "68c995e5579163001588b514",
+        "startDate": 1117,
+        "endDate": 1141
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b515",
+          "name": "(Sultanate of Merv) Ghaznavid Allies",
+          "allyArmyList": "68c995ce5791630015887d78"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b516",
+      "dateRange": {
+        "_id": "68c995e5579163001588b517",
+        "startDate": 1117,
+        "endDate": 1157
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b518",
+          "name": "(Sultanate of Merv) Ghurid Allies",
+          "allyArmyList": "68c995ce5791630015887d83"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e5579163001588b519",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "flocks of sheep"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9ede1af060017709f7b"
+}

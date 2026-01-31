@@ -1,0 +1,215 @@
+{
+  "derivedData": {
+    "listStartDate": 646,
+    "listEndDate": 900,
+    "extendedName": "Pre-Samurai Japanese  646 to 900 AD"
+  },
+  "keywords": [],
+  "sortId": 336,
+  "sublistId": "a",
+  "name": "Pre-Samurai Japanese",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf192d",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf192e",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Hilly"
+      ],
+      "_id": "68c07ed35c431f0015cf192f",
+      "note": ""
+    }
+  ],
+  "listId": 335,
+  "dateRanges": [
+    {
+      "_id": "68c07ed35c431f0015cf1930",
+      "startDate": 646,
+      "endDate": 900
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995ea579163001588c3a8",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3a9",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Armored horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3aa",
+      "min": 6,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3ab",
+          "troopTypeCode": "PAV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Heishi militia bowmen protected by spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3ac",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3ad",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Heishi horsemen armed with bow",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3ae",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3af",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Pacified Emishi scouts",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3b0",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3b1",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "O-yumi crossbow artillery",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3b2",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995ea579163001588c3b3",
+          "startDate": 795,
+          "endDate": 900
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3b4",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Kondei, fushu resettled Emishi, and similar additional horse archers",
+      "note": "only early Heian",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c3b5",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995ea579163001588c3b6",
+          "startDate": 795,
+          "endDate": 900
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3b7",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nembei sei peasant conscripts",
+      "note": "only early Heian",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995ea579163001588c3b8",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c3b9",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995ea579163001588c3ba",
+          "troopTypeCode": "PAV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995ea579163001588c3bb",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Palisade"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f4e1af06001770a345"
+}

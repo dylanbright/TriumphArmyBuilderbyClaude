@@ -1,0 +1,392 @@
+{
+  "derivedData": {
+    "listStartDate": 1106,
+    "listEndDate": 1320,
+    "extendedName": "Feudal German Citystates  1106 to 1320 AD"
+  },
+  "keywords": [
+    "Feudal",
+    "German",
+    "Germany"
+  ],
+  "sortId": 206,
+  "sublistId": "a",
+  "name": "Feudal German Citystates",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec55c431f0015cf12ab",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec55c431f0015cf12ac",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        " Hilly"
+      ],
+      "_id": "68c07ec55c431f0015cf12ad",
+      "note": "Alpine states"
+    },
+    {
+      "values": [
+        " Arable "
+      ],
+      "_id": "68c07ec55c431f0015cf12ae",
+      "note": "Others"
+    }
+  ],
+  "listId": 903,
+  "dateRanges": [
+    {
+      "_id": "68c07ec55c431f0015cf12af",
+      "startDate": 1106,
+      "endDate": 1320
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e0579163001588a874",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a875",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "City men-at-arms and mounted rich burghers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a876",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a877",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e0579163001588a878",
+          "startDate": 1150,
+          "endDate": 1320
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a879",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hungarian horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a87a",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a87b",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "City militia crossbow",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a87c",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a87d",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a87e",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "City militia spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a87f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a880",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a881",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "City militia skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a882",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a883",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e0579163001588a884",
+          "startDate": 1150,
+          "endDate": 1320
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a885",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Brabanter mercenary pikemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a886",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a887",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Poorly equipped heerban",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e0579163001588a888",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a889",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Heerban crossbowmen or bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a88a",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a88b",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a88c",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary axemen, swordsmen, or halberdiers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a88d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a88e",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a88f",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e0579163001588a890",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary bowmen or crossbowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e0579163001588a891",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e0579163001588a892",
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a893",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a894",
+      "troopEntries": [
+        {
+          "_id": "68c995e0579163001588a895",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e0579163001588a896",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e0579163001588a897",
+          "name": "German Feudal or Clerical ally",
+          "allyArmyList": "68c995cb57916300158877e0"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a898",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e0579163001588a899",
+          "name": "German Citystate ally",
+          "allyArmyList": "68c995cb57916300158877f4"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e0579163001588a89a",
+      "dateRange": {
+        "_id": "68c995e0579163001588a89b",
+        "startDate": 1298,
+        "endDate": 1330
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e0579163001588a89c",
+          "name": "(only Riga) Lithuanian ally",
+          "allyArmyList": "68c995cc57916300158879bb"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e0579163001588a89d",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Wagon laager"
+    },
+    {
+      "_id": "68c995e0579163001588a89e",
+      "battleCardCode": "SW",
+      "note": "Standard Wagon"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e8e1af060017709cbb"
+}

@@ -1,0 +1,336 @@
+{
+  "derivedData": {
+    "listStartDate": -2112,
+    "listEndDate": -2004,
+    "extendedName": "Third Dynasty of Ur  2112 to 2004 BC"
+  },
+  "keywords": [
+    "Sumerian"
+  ],
+  "sortId": 6,
+  "sublistId": "a",
+  "name": "Third Dynasty of Ur",
+  "invasionRatings": [
+    {
+      "_id": "68c07eaf5c431f0015cf08e1",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eaf5c431f0015cf08e2",
+      "value": 2,
+      "note": "2112-2028 BC"
+    },
+    {
+      "_id": "68c07eaf5c431f0015cf08e3",
+      "value": 1,
+      "note": "2027-2004 BC"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Delta"
+      ],
+      "_id": "68c07eaf5c431f0015cf08e4",
+      "note": ""
+    }
+  ],
+  "listId": 6,
+  "dateRanges": [
+    {
+      "_id": "68c07eaf5c431f0015cf08e5",
+      "startDate": -2112,
+      "endDate": -2004
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d257916300158883f6",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d257916300158883f7",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "4-wheeled battle platforms or straddle cars",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d257916300158883f8",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d257916300158883f9",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Household bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d257916300158883fa",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d257916300158883fb",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Household retinue",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d257916300158883fc",
+      "min": 6,
+      "max": 11,
+      "dateRanges": [
+        {
+          "_id": "68c995d257916300158883fd",
+          "startDate": -2112,
+          "endDate": -2028
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d257916300158883fe",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d257916300158883ff",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Household or militia spearmen with large rectangular shield",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d25791630015888400",
+      "min": 6,
+      "max": 11,
+      "dateRanges": [
+        {
+          "_id": "68c995d25791630015888401",
+          "startDate": -2027,
+          "endDate": -2004
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d25791630015888402",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Household or militia spearmen with Amorite shield",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d25791630015888403",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [
+        {
+          "_id": "68c995d25791630015888404",
+          "startDate": -2027,
+          "endDate": -2004
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d25791630015888405",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d25791630015888406",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Household or militia spearmen with large rectangular shield",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d25791630015888407",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d25791630015888408",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Highlander or Elamite bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d25791630015888409",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d2579163001588840a",
+      "min": 3,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d2579163001588840b",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nomadic and levy bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d2579163001588840c",
+      "min": 1,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d2579163001588840d",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Frontier troops, levy, or nomadic javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d2579163001588840e",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d2579163001588840f",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Amurru bedouin levies and effective frontier troops",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d25791630015888410",
+      "troopEntries": [
+        {
+          "_id": "68c995d25791630015888411",
+          "troopTypeCode": "BTX",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d25791630015888412",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d25791630015888413",
+      "troopEntries": [
+        {
+          "_id": "68c995d25791630015888414",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d25791630015888415",
+      "dateRange": {
+        "_id": "68c995d25791630015888416",
+        "startDate": -2027,
+        "endDate": -2004
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d25791630015888417",
+          "name": "Amurru allies",
+          "allyArmyList": "68c995c35791630015886a74"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d25791630015888418",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Ditch and bank"
+    },
+    {
+      "_id": "68c995d25791630015888419",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack donkeys"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9d8e1af0600177092e5"
+}

@@ -1,0 +1,164 @@
+{
+  "derivedData": {
+    "listStartDate": -788,
+    "listEndDate": -588,
+    "extendedName": "Beidi  788 to 588 BC"
+  },
+  "keywords": [
+    "Early",
+    "Chinese",
+    "Border",
+    "Tribes"
+  ],
+  "sortId": 303,
+  "sublistId": "b",
+  "name": "Beidi",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecf5c431f0015cf172d",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecf5c431f0015cf172e",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe"
+      ],
+      "_id": "68c07ecf5c431f0015cf172f",
+      "note": ""
+    }
+  ],
+  "listId": 302,
+  "dateRanges": [
+    {
+      "_id": "68c07ecf5c431f0015cf1730",
+      "startDate": -788,
+      "endDate": -588
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e7579163001588bc15",
+      "min": 5,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bc16",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Red Ti fierce fighters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bc17",
+      "min": 8,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bc18",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Subjugated clan fighters",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bc19",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bc1a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bc1b",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bc1c",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Levies, families, ill-equipped tribesmen and the like",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e7579163001588bc1d",
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bc1e",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e7579163001588bc1f",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bc20",
+          "name": "Xing Chinese allies",
+          "allyArmyList": "68c995cf5791630015887ea0"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bc21",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bc22",
+          "name": "Xing Chinese allies",
+          "allyArmyList": "68c995cf5791630015887eaa"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9f0e1af06001770a135"
+}

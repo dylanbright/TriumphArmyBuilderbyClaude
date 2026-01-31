@@ -1,0 +1,276 @@
+{
+  "derivedData": {
+    "listStartDate": 1302,
+    "listEndDate": 1388,
+    "extendedName": "Catalan Company  1302 to 1388 AD"
+  },
+  "keywords": [],
+  "sortId": 249,
+  "sublistId": "a",
+  "name": "Catalan Company",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec95c431f0015cf149e",
+      "value": 4,
+      "note": "1302 to 1330 AD"
+    },
+    {
+      "_id": "68c07ec95c431f0015cf149f",
+      "value": 2,
+      "note": "1331 AD and later"
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec95c431f0015cf14a0",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec95c431f0015cf14a1",
+      "note": ""
+    }
+  ],
+  "listId": 251,
+  "dateRanges": [
+    {
+      "_id": "68c07ec95c431f0015cf14a2",
+      "startDate": 1302,
+      "endDate": 1388
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e3579163001588b11e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b11f",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Aragonese men-at-arms",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b120",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b121",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Aragonese cavalls alforrats",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b122",
+      "min": 6,
+      "max": 11,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b123",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Catalan almughavars",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e3579163001588b124",
+          "min": 0,
+          "max": 4,
+          "battleCardCode": "MI",
+          "note": "after 1304"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b125",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b126",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e3579163001588b127",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Catalan crossbowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b128",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b129",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Armed sailors with crossbow",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b12a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b12b",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Dregs and dependents",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b12c",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e3579163001588b12d",
+          "startDate": 1305,
+          "endDate": 1388
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b12e",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Greek prisoner-of-war bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e3579163001588b12f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e3579163001588b130",
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b131",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e3579163001588b132",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e3579163001588b133",
+      "dateRange": {
+        "_id": "68c995e3579163001588b134",
+        "startDate": 1302,
+        "endDate": 1304
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b135",
+          "name": "Byzantine allies",
+          "allyArmyList": "68c995cd5791630015887ab7"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b136",
+      "dateRange": {
+        "_id": "68c995e3579163001588b137",
+        "startDate": 1302,
+        "endDate": 1304
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b138",
+          "name": "Alan allies",
+          "allyArmyList": "68c995ce5791630015887c3e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b139",
+      "dateRange": {
+        "_id": "68c995e3579163001588b13a",
+        "startDate": 1305,
+        "endDate": 1388
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b13b",
+          "name": "Turkish contingent",
+          "allyArmyList": "68c995cd5791630015887ae1"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9ebe1af060017709ea6"
+}

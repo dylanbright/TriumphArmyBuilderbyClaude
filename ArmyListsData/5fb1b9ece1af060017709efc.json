@@ -1,0 +1,229 @@
+{
+  "derivedData": {
+    "listStartDate": 658,
+    "listEndDate": 896,
+    "extendedName": "Khawarij Rebellions  658 to 896 AD"
+  },
+  "keywords": [
+    "Arab",
+    "Rebellion"
+  ],
+  "sortId": 254,
+  "sublistId": "d",
+  "name": "Khawarij Rebellions",
+  "invasionRatings": [
+    {
+      "_id": "68c07eca5c431f0015cf14f4",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eca5c431f0015cf14f5",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Dry"
+      ],
+      "_id": "68c07eca5c431f0015cf14f6",
+      "note": ""
+    }
+  ],
+  "listId": 253,
+  "dateRanges": [
+    {
+      "_id": "68c07eca5c431f0015cf14f7",
+      "startDate": 658,
+      "endDate": 896
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e4579163001588b28f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b290",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Light camels",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b291",
+          "min": null,
+          "max": null,
+          "battleCardCode": "LC",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b292",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b293",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Khwarij Jund horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b294",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Spear"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b295",
+      "min": 5,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b296",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Khawarij swordsmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b297",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b298",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b299",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Muslim bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b29a",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b29b",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b29c",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b29d",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e4579163001588b29e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b29f",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e4579163001588b2a0",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e4579163001588b2a1",
+      "troopEntries": [
+        {
+          "_id": "68c995e4579163001588b2a2",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e4579163001588b2a3",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "baggage camels"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9ece1af060017709efc"
+}

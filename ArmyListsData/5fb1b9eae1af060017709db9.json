@@ -1,0 +1,457 @@
+{
+  "derivedData": {
+    "listStartDate": 1201,
+    "listEndDate": 1525,
+    "extendedName": "Teutonic Orders  1201 to 1525 AD"
+  },
+  "keywords": [
+    "German"
+  ],
+  "sortId": 226,
+  "sublistId": "a",
+  "name": "Teutonic Orders",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec75c431f0015cf13aa",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec75c431f0015cf13ab",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec75c431f0015cf13ac",
+      "note": ""
+    }
+  ],
+  "listId": 228,
+  "dateRanges": [
+    {
+      "_id": "68c07ec75c431f0015cf13ad",
+      "startDate": 1201,
+      "endDate": 1525
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e2579163001588acf6",
+      "min": 2,
+      "max": 5,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588acf7",
+          "startDate": 1201,
+          "endDate": 1439
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588acf8",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ritterbr\u00fcder and adventurer men-at-arms",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588acf9",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588acfa",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588acfb",
+          "startDate": 1440,
+          "endDate": 1525
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588acfc",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Ritterbr\u00fcder and adventurer men-at-arms",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588acfd",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588acfe",
+          "startDate": 1440,
+          "endDate": 1525
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588acff",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Teutonic order br\u00fcder in deep spitz formation",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad00",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad01",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Knechte crossbowmen on horses",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad02",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad03",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Turkopolen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad04",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad05",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Prussian or Livonian horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad06",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588ad07",
+          "startDate": 1300,
+          "endDate": 1525
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad08",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "German and Low Countries colonists and burghers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad09",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad0a",
+          "troopTypeCode": "SPR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Dienende br\u00fcder and mercenary spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e2579163001588ad0b",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HL",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad0c",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad0d",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Dienende br\u00fcder and mercenary crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad0e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad0f",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Livonian infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad10",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad11",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Livonian skirmishing infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad12",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad13",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Prussian or Lithuanian subject infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad14",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588ad15",
+          "startDate": 1381,
+          "endDate": 1525
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad16",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Handgunners",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e2579163001588ad17",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e2579163001588ad18",
+          "startDate": 1381,
+          "endDate": 1525
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad19",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bombards",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e2579163001588ad1a",
+      "troopEntries": [
+        {
+          "_id": "68c995e2579163001588ad1b",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e2579163001588ad1c",
+      "dateRange": {
+        "_id": "68c995e2579163001588ad1d",
+        "startDate": 1201,
+        "endDate": 1241
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad1e",
+          "name": "Polish allies",
+          "allyArmyList": "68c995cc5791630015887957"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad1f",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad20",
+          "name": "German Princes allies",
+          "allyArmyList": "68c995cb57916300158877d3"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad21",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad22",
+          "name": "German Princes allies",
+          "allyArmyList": "68c995cb579163001588783e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad23",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad24",
+          "name": "German Princes allies",
+          "allyArmyList": "68c995cb5791630015887849"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad25",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad26",
+          "name": "German Citystate allies",
+          "allyArmyList": "68c995cb57916300158877f4"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad27",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad28",
+          "name": "German Citystate allies",
+          "allyArmyList": "68c995cb5791630015887810"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e2579163001588ad29",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e2579163001588ad2a",
+          "name": "German Citystate allies",
+          "allyArmyList": "68c995cb5791630015887820"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9eae1af060017709db9"
+}

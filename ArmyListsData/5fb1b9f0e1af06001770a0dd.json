@@ -1,0 +1,293 @@
+{
+  "derivedData": {
+    "listStartDate": 560,
+    "listEndDate": 1065,
+    "extendedName": "Tibetan  560 to 1065 AD"
+  },
+  "keywords": [],
+  "sortId": 297,
+  "sublistId": "a",
+  "name": "Tibetan",
+  "invasionRatings": [
+    {
+      "_id": "68c07ece5c431f0015cf16d5",
+      "value": 3,
+      "note": "560-841 AD"
+    },
+    {
+      "_id": "68c07ece5c431f0015cf16d6",
+      "value": 1,
+      "note": "842-1065 AD"
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ece5c431f0015cf16d7",
+      "value": 3,
+      "note": "560-841 AD"
+    },
+    {
+      "_id": "68c07ece5c431f0015cf16d8",
+      "value": 1,
+      "note": "842-1065 AD"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ece5c431f0015cf16d9",
+      "note": ""
+    }
+  ],
+  "listId": 296,
+  "dateRanges": [
+    {
+      "_id": "68c07ece5c431f0015cf16da",
+      "startDate": 560,
+      "endDate": 1065
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e7579163001588bac3",
+      "min": 4,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bac4",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tibetan horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e7579163001588bac5",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Spear"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bac6",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bac7",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Garrison spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bac8",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bac9",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Garrison bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588baca",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bacb",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Himalayan mountain tribesmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bacc",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bacd",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Qiang, Sumpa, and similar nomad tribesmen horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bace",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bacf",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Large rope-pull stone-throwers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e7579163001588bad0",
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bad1",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e7579163001588bad2",
+      "dateRange": {
+        "_id": "68c995e7579163001588bad3",
+        "startDate": 640,
+        "endDate": 703
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bad4",
+          "name": "Nepalese ally",
+          "allyArmyList": "68c995ce5791630015887e0f"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bad5",
+      "dateRange": {
+        "_id": "68c995e7579163001588bad6",
+        "startDate": 660,
+        "endDate": 848
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bad7",
+          "name": "T\u00fcrgesh, Qarluq, Ferghanan or other Turkic allies",
+          "allyArmyList": "68c995ce5791630015887d5e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bad8",
+      "dateRange": {
+        "_id": "68c995e7579163001588bad9",
+        "startDate": 670,
+        "endDate": 692
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bada",
+          "name": "Khotanese ally",
+          "allyArmyList": "68c995ce5791630015887d70"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588badb",
+      "dateRange": {
+        "_id": "68c995e7579163001588badc",
+        "startDate": 707,
+        "endDate": 707
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588badd",
+          "name": "Sogdian ally",
+          "allyArmyList": "68c995ce5791630015887d64"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bade",
+      "dateRange": {
+        "_id": "68c995e7579163001588badf",
+        "startDate": 754,
+        "endDate": 793
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bae0",
+          "name": "Nanzhao ally",
+          "allyArmyList": "68c995cf5791630015887e2e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bae1",
+      "dateRange": {
+        "_id": "68c995e7579163001588bae2",
+        "startDate": 795,
+        "endDate": 801
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bae3",
+          "name": "Abbasid contingent",
+          "allyArmyList": "68c995ce5791630015887e09"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e7579163001588bae4",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Palisade"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f0e1af06001770a0dd"
+}

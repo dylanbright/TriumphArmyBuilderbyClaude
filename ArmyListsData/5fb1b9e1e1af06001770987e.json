@@ -1,0 +1,322 @@
+{
+  "derivedData": {
+    "listStartDate": 193,
+    "listEndDate": 284,
+    "extendedName": "Severan Middle Imperial Roman  193 to 284 AD"
+  },
+  "keywords": [
+    "Rome",
+    "Roman"
+  ],
+  "sortId": 121,
+  "sublistId": "a",
+  "name": "Severan Middle Imperial Roman",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebc5c431f0015cf0e7a",
+      "value": 2,
+      "note": "Eastern Armies"
+    },
+    {
+      "_id": "68c07ebc5c431f0015cf0e7b",
+      "value": 1,
+      "note": "Western Armies"
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebc5c431f0015cf0e7c",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Hilly"
+      ],
+      "_id": "68c07ebc5c431f0015cf0e7d",
+      "note": ""
+    }
+  ],
+  "listId": 121,
+  "dateRanges": [
+    {
+      "_id": "68c07ebc5c431f0015cf0e7e",
+      "startDate": 193,
+      "endDate": 284
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995db5791630015889948",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db5791630015889949",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Equites alares",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db579163001588994a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db579163001588994b",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Equites catafractarii",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db579163001588994c",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db579163001588994d",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Legionaries",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995db579163001588994e",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        },
+        {
+          "_id": "68c995db579163001588994f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HL",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995db5791630015889950",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db5791630015889951",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995db5791630015889952",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Auxiliary infantry with or without armor",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995db5791630015889953",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995db5791630015889954",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db5791630015889955",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995db5791630015889956",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Auxiliary bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995db5791630015889957",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995db5791630015889958",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db5791630015889959",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt shooters or stone throwers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db579163001588995a",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db579163001588995b",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "border horse archers",
+      "note": "only Eastern armies",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995db579163001588995c",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995db579163001588995d",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "dromedarii",
+      "note": "only Eastern armies",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995db579163001588995e",
+          "min": null,
+          "max": null,
+          "battleCardCode": "LC",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995db579163001588995f",
+      "troopEntries": [
+        {
+          "_id": "68c995db5791630015889960",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995db5791630015889961",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db5791630015889962",
+          "name": "(Eastern armies only) Arab Nomad allies",
+          "allyArmyList": "68c995c757916300158870ff"
+        }
+      ]
+    },
+    {
+      "_id": "68c995db5791630015889963",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db5791630015889964",
+          "name": "(Eastern armies only) Palmyran allies",
+          "allyArmyList": "68c995c9579163001588731b"
+        }
+      ]
+    },
+    {
+      "_id": "68c995db5791630015889965",
+      "dateRange": {
+        "_id": "68c995db5791630015889966",
+        "startDate": 200,
+        "endDate": 284
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995db5791630015889967",
+          "name": "Visigoth allies",
+          "allyArmyList": "68c995c857916300158872a9"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995db5791630015889968",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Ditch and rampart"
+    },
+    {
+      "_id": "68c995db5791630015889969",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack mules"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e1e1af06001770987e"
+}

@@ -1,0 +1,171 @@
+{
+  "derivedData": {
+    "listStartDate": 1116,
+    "listEndDate": 1521,
+    "extendedName": "Chinantec  1116 to 1521 AD"
+  },
+  "keywords": [
+    "American"
+  ],
+  "sortId": 354,
+  "sublistId": "a",
+  "name": "Chinantec",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed45c431f0015cf19fd",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed45c431f0015cf19fe",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ed45c431f0015cf19ff",
+      "note": ""
+    }
+  ],
+  "listId": 344,
+  "dateRanges": [
+    {
+      "_id": "68c07ed45c431f0015cf1a00",
+      "startDate": 1116,
+      "endDate": 1521
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995eb579163001588c551",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c552",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Noble bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995eb579163001588c553",
+      "min": 8,
+      "max": 14,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c554",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Infantry armed with long spear and pike",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995eb579163001588c555",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995eb579163001588c556",
+      "min": 2,
+      "max": 5,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c557",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995eb579163001588c558",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995eb579163001588c559",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c55a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Scouts",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995eb579163001588c55b",
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c55c",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995eb579163001588c55d",
+      "troopEntries": [
+        {
+          "_id": "68c995eb579163001588c55e",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995eb579163001588c55f",
+      "min": null,
+      "max": null,
+      "battleCardCode": "AM",
+      "note": null
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f5e1af06001770a41c"
+}

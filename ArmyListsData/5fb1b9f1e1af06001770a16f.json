@@ -1,0 +1,218 @@
+{
+  "derivedData": {
+    "listStartDate": -549,
+    "listEndDate": -480,
+    "extendedName": "Later Spring and Autumn: Chu  549 to 480 BC"
+  },
+  "keywords": [
+    "Chinese"
+  ],
+  "sortId": 304,
+  "sublistId": "e",
+  "name": "Later Spring and Autumn: Chu",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecf5c431f0015cf1767",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecf5c431f0015cf1768",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Forest"
+      ],
+      "_id": "68c07ecf5c431f0015cf1769",
+      "note": ""
+    }
+  ],
+  "listId": 303,
+  "dateRanges": [
+    {
+      "_id": "68c07ecf5c431f0015cf176a",
+      "startDate": -549,
+      "endDate": -480
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e7579163001588bca3",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bca4",
+          "troopTypeCode": "CHT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nobles in 3-man 4-horse chariots",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e7579163001588bca5",
+      "min": 6,
+      "max": 13,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bca6",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Infantry armed with long spear or long dagger-axe",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e7579163001588bca7",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bca8",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bca9",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e7579163001588bcaa",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Palace guardsmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e7579163001588bcab",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SP",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bcac",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bcad",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen or crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e7579163001588bcae",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SB",
+          "note": null
+        },
+        {
+          "_id": "68c995e7579163001588bcaf",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e7579163001588bcb0",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bcb1",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Southern fierce tribesmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e7579163001588bcb2",
+      "troopEntries": [
+        {
+          "_id": "68c995e7579163001588bcb3",
+          "troopTypeCode": "CHT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e7579163001588bcb4",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e7579163001588bcb5",
+          "name": "Jung or similar allies",
+          "allyArmyList": "68c995cf5791630015887e87"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e7579163001588bcb6",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack donkeys"
+    },
+    {
+      "_id": "68c995e7579163001588bcb7",
+      "battleCardCode": "SC",
+      "note": "Stampeding elephant herd"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9f1e1af06001770a16f"
+}

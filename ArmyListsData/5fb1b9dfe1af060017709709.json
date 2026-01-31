@@ -1,0 +1,479 @@
+{
+  "derivedData": {
+    "listStartDate": -166,
+    "listEndDate": -63,
+    "extendedName": "Later Seleucid  166 to 63 BC"
+  },
+  "keywords": [
+    "Diadachoii",
+    "Hellenistic",
+    "Successor"
+  ],
+  "sortId": 93,
+  "sublistId": "e",
+  "name": "Later Seleucid",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb95c431f0015cf0d06",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb95c431f0015cf0d07",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable",
+        " Hilly"
+      ],
+      "_id": "68c07eb95c431f0015cf0d08",
+      "note": ""
+    }
+  ],
+  "listId": 93,
+  "dateRanges": [
+    {
+      "_id": "68c07eb95c431f0015cf0d09",
+      "startDate": -166,
+      "endDate": -63
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d95791630015889405",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889406",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Companions and unconverted xystophoroi",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889407",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889408",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Cataphracts",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889409",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588940a",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d9579163001588940b",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "City militia and other javelin-armed light horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d9579163001588940c",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588940d",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Median, Skythian, or Parthian horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d9579163001588940e",
+      "min": 2,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588940f",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Phalanx",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d95791630015889410",
+          "min": null,
+          "max": null,
+          "battleCardCode": "ET",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889411",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889412",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Imitation legionaries",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889413",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889414",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary thureophoroi or thorakitai",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889415",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889416",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "City militia thureophoroi",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889417",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889418",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Asiatic skirmishing bowmen and slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889419",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588941a",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Massed levy",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d9579163001588941b",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588941c",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Various Anatolian light infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d9579163001588941d",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588941e",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Thracian infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d9579163001588941f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889420",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt-shooters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889421",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d95791630015889422",
+          "startDate": -166,
+          "endDate": -162
+        },
+        {
+          "_id": "68c995d95791630015889423",
+          "startDate": -145,
+          "endDate": -125
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889424",
+          "troopTypeCode": "ELE",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "War elephants",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d95791630015889425",
+          "min": null,
+          "max": null,
+          "battleCardCode": "ES",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889426",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889427",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Galatian horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d95791630015889428",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d95791630015889429",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Galatian fierce fighters",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d9579163001588942a",
+      "troopEntries": [
+        {
+          "_id": "68c995d9579163001588942b",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d9579163001588942c",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d9579163001588942d",
+      "dateRange": {
+        "_id": "68c995d9579163001588942e",
+        "startDate": -145,
+        "endDate": -83
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d9579163001588942f",
+          "name": "Jewish Allies",
+          "allyArmyList": "68c995c757916300158870af"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889430",
+      "dateRange": {
+        "_id": "68c995d95791630015889431",
+        "startDate": -145,
+        "endDate": -83
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d95791630015889432",
+          "name": "Jewish Allies",
+          "allyArmyList": "68c995c757916300158870c1"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889433",
+      "dateRange": {
+        "_id": "68c995d95791630015889434",
+        "startDate": -140,
+        "endDate": -83
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d95791630015889435",
+          "name": "Elymaians and other Parthian allies",
+          "allyArmyList": "68c995c85791630015887190"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d95791630015889436",
+      "dateRange": {
+        "_id": "68c995d95791630015889437",
+        "startDate": -140,
+        "endDate": -83
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d95791630015889438",
+          "name": "Elymaians and other Parthian allies",
+          "allyArmyList": "68c995c85791630015887196"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d95791630015889439",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Drystone wall or ditch and bank"
+    },
+    {
+      "_id": "68c995d9579163001588943a",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack camels"
+    },
+    {
+      "_id": "68c995d9579163001588943b",
+      "battleCardCode": "SC",
+      "note": "Scythed Chariots"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dfe1af060017709709"
+}

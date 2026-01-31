@@ -1,0 +1,173 @@
+{
+  "derivedData": {
+    "listStartDate": 496,
+    "listEndDate": 639,
+    "extendedName": "Merovingian Frankish: Austrasia  496 to 639 AD"
+  },
+  "keywords": [],
+  "sortId": 144,
+  "sublistId": "a",
+  "name": "Merovingian Frankish: Austrasia",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebf5c431f0015cf0fa6",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebf5c431f0015cf0fa7",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ebf5c431f0015cf0fa8",
+      "note": ""
+    }
+  ],
+  "listId": 144,
+  "dateRanges": [
+    {
+      "_id": "68c07ebf5c431f0015cf0fa9",
+      "startDate": 496,
+      "endDate": 639
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995dc5791630015889dab",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889dac",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Frankish and Alamannic noble horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995dc5791630015889dad",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Warrior"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889dae",
+      "min": 8,
+      "max": 14,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889daf",
+          "troopTypeCode": "WRR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tribal fierce infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889db0",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889db1",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tribal bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889db2",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889db3",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995dc5791630015889db4",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Basque javelinmen or skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995dc5791630015889db5",
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889db6",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995dc5791630015889db7",
+      "dateRange": {
+        "_id": "68c995dc5791630015889db8",
+        "startDate": 507,
+        "endDate": 507
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dc5791630015889db9",
+          "name": "Burgundian allies",
+          "allyArmyList": "68c995c957916300158872e7"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995dc5791630015889dba",
+      "battleCardCode": "PD",
+      "note": "Barricades",
+      "min": 0,
+      "max": 2
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e3e1af0600177099aa"
+}

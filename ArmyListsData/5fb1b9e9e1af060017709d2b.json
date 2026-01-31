@@ -1,0 +1,263 @@
+{
+  "derivedData": {
+    "listStartDate": 1029,
+    "listEndDate": 1150,
+    "extendedName": "Early Communal Italian  1029 to 1150 AD"
+  },
+  "keywords": [
+    "Italy"
+  ],
+  "sortId": 213,
+  "sublistId": "a",
+  "name": "Early Communal Italian",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec65c431f0015cf131b",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec65c431f0015cf131c",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec65c431f0015cf131d",
+      "note": ""
+    }
+  ],
+  "listId": 215,
+  "dateRanges": [
+    {
+      "_id": "68c07ec65c431f0015cf131e",
+      "startDate": 1029,
+      "endDate": 1150
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e1579163001588aa40",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa41",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e1579163001588aa42",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Contadini and communal cavalieri",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588aa43",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa44",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mercenary crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588aa45",
+      "min": 3,
+      "max": 7,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa46",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Italian communal spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588aa47",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa48",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Italian communal axemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588aa49",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa4a",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Italian communal crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e1579163001588aa4b",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588aa4c",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa4d",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Italian communal light bow",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e1579163001588aa4e",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa4f",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Contadini infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e1579163001588aa50",
+      "troopEntries": [
+        {
+          "_id": "68c995e1579163001588aa51",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e1579163001588aa52",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588aa53",
+          "name": "East Frankish Ally",
+          "allyArmyList": "68c995ca5791630015887454"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588aa54",
+      "dateRange": {
+        "_id": "68c995e1579163001588aa55",
+        "startDate": 1106,
+        "endDate": 1149
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588aa56",
+          "name": "Feudal German ally",
+          "allyArmyList": "68c995cb57916300158877e0"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588aa57",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588aa58",
+          "name": "Communal or Papal Italian ally",
+          "allyArmyList": "68c995cc579163001588789a"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e1579163001588aa59",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e1579163001588aa5a",
+          "name": "Communal or Papal Italian ally",
+          "allyArmyList": "68c995cc57916300158878b3"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e1579163001588aa5b",
+      "battleCardCode": "SW",
+      "note": "Carroccio standard wagon"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e9e1af060017709d2b"
+}

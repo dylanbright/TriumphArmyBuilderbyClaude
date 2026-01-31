@@ -1,0 +1,118 @@
+{
+  "derivedData": {
+    "listStartDate": -600,
+    "listEndDate": 950,
+    "extendedName": "Minor Mexican City-States  600 BC to 950 AD"
+  },
+  "keywords": [
+    "American"
+  ],
+  "sortId": 344,
+  "sublistId": "a",
+  "name": "Minor Mexican City-States",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf197b",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed35c431f0015cf197c",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ed35c431f0015cf197d",
+      "note": ""
+    }
+  ],
+  "listId": 912,
+  "dateRanges": [
+    {
+      "_id": "68c07ed35c431f0015cf197e",
+      "startDate": -600,
+      "endDate": 950
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995ea579163001588c464",
+      "min": 8,
+      "max": 16,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c465",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nobles armed with long spears and large shields",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c466",
+      "min": 0,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c467",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Poorly-armed commoners",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995ea579163001588c468",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c469",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Peasant skirmishing slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995ea579163001588c46a",
+      "troopEntries": [
+        {
+          "_id": "68c995ea579163001588c46b",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f5e1af06001770a393"
+}

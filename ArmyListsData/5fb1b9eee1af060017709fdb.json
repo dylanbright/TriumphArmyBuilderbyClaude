@@ -1,0 +1,229 @@
+{
+  "derivedData": {
+    "listStartDate": 1071,
+    "listEndDate": 1375,
+    "extendedName": "Cilician Armenian  1071 to 1375 AD"
+  },
+  "keywords": [],
+  "sortId": 273,
+  "sublistId": "a",
+  "name": "Cilician Armenian",
+  "invasionRatings": [
+    {
+      "_id": "68c07ecc5c431f0015cf15d3",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ecc5c431f0015cf15d4",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ecc5c431f0015cf15d5",
+      "note": ""
+    }
+  ],
+  "listId": 272,
+  "dateRanges": [
+    {
+      "_id": "68c07ecc5c431f0015cf15d6",
+      "startDate": 1071,
+      "endDate": 1375
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e5579163001588b664",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b665",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Armenian horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b666",
+      "min": 3,
+      "max": 9,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b667",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e5579163001588b668",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Armenian infantry",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b669",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b66a",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Armenian bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e5579163001588b66b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b66c",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bedouin horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e5579163001588b66d",
+      "troopEntries": [
+        {
+          "_id": "68c995e5579163001588b66e",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e5579163001588b66f",
+      "dateRange": {
+        "_id": "68c995e5579163001588b670",
+        "startDate": 1098,
+        "endDate": 1127
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b671",
+          "name": "Frankish allies",
+          "allyArmyList": "68c995cd5791630015887c1e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b672",
+      "dateRange": {
+        "_id": "68c995e5579163001588b673",
+        "startDate": 1128,
+        "endDate": 1263
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b674",
+          "name": "Frankish allies",
+          "allyArmyList": "68c995ce5791630015887c79"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b675",
+      "dateRange": {
+        "_id": "68c995e5579163001588b676",
+        "startDate": 1128,
+        "endDate": 1128
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b677",
+          "name": "Rum Seljuq allies",
+          "allyArmyList": "68c995ce5791630015887c37"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b678",
+      "dateRange": {
+        "_id": "68c995e5579163001588b679",
+        "startDate": 1260,
+        "endDate": 1355
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b67a",
+          "name": "Ilkhanid Mongol allies",
+          "allyArmyList": "68c995ce5791630015887d0f"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e5579163001588b67b",
+      "dateRange": {
+        "_id": "68c995e5579163001588b67c",
+        "startDate": 1301,
+        "endDate": 1375
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e5579163001588b67d",
+          "name": "Lusignan allies",
+          "allyArmyList": "68c995ce5791630015887c9d"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e5579163001588b67e",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack mules"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9eee1af060017709fdb"
+}

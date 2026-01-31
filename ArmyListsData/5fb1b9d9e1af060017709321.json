@@ -1,0 +1,348 @@
+{
+  "derivedData": {
+    "listStartDate": -2250,
+    "listEndDate": -2112,
+    "extendedName": "Guti  2250 to 2112 BC"
+  },
+  "keywords": [
+    "Anatolian",
+    "Highland",
+    "Sumerian"
+  ],
+  "sortId": 9,
+  "sublistId": "c",
+  "name": "Guti",
+  "invasionRatings": [
+    {
+      "_id": "68c07eaf5c431f0015cf091d",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eaf5c431f0015cf091e",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07eaf5c431f0015cf091f",
+      "note": ""
+    }
+  ],
+  "listId": 9,
+  "dateRanges": [
+    {
+      "_id": "68c07eaf5c431f0015cf0920",
+      "startDate": -2250,
+      "endDate": -2112
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d357916300158884c5",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884c6",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d357916300158884c7",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bodyguards",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d357916300158884c8",
+      "min": 6,
+      "max": 20,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884c9",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d357916300158884ca",
+          "troopTypeCode": "WBD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Unshielded javelinmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d357916300158884cb",
+      "min": 4,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884cc",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d357916300158884cd",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d357916300158884ce",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884cf",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Slingers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d357916300158884d0",
+      "min": 2,
+      "max": 5,
+      "dateRanges": [
+        {
+          "_id": "68c995d357916300158884d1",
+          "startDate": -2250,
+          "endDate": -2250
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884d2",
+          "troopTypeCode": "PIK",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d357916300158884d3",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Sumero-Akkadian militia spearmen",
+      "note": "Great Revolt",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d357916300158884d4",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995d357916300158884d5",
+          "startDate": -2250,
+          "endDate": -2250
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884d6",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Markhashian bowmen",
+      "note": "Great Revolt",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995d357916300158884d7",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d357916300158884d8",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d357916300158884d9",
+          "startDate": -2250,
+          "endDate": -2250
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884da",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Melukhkhan elite bowmen",
+      "note": "Great Revolt",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d357916300158884db",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995d357916300158884dc",
+          "startDate": -2250,
+          "endDate": -2250
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884dd",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Makkanite close-combat fighters",
+      "note": "Great Revolt",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d357916300158884de",
+      "troopEntries": [
+        {
+          "_id": "68c995d357916300158884df",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995d357916300158884e0",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d357916300158884e1",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d357916300158884e2",
+          "name": "Subject Citystates",
+          "allyArmyList": "68c995c35791630015886a35"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d357916300158884e3",
+      "dateRange": {
+        "_id": "68c995d357916300158884e4",
+        "startDate": -2250,
+        "endDate": -2250
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d357916300158884e5",
+          "name": "Mariote allies",
+          "allyArmyList": "68c995c35791630015886ac8"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d357916300158884e6",
+      "dateRange": {
+        "_id": "68c995d357916300158884e7",
+        "startDate": -2250,
+        "endDate": -2250
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d357916300158884e8",
+          "name": "Anatolian allies",
+          "allyArmyList": "68c995c35791630015886abc"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d357916300158884e9",
+      "dateRange": {
+        "_id": "68c995d357916300158884ea",
+        "startDate": -2250,
+        "endDate": -2250
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d357916300158884eb",
+          "name": "Mariote allies",
+          "allyArmyList": "68c995c35791630015886ac8"
+        },
+        {
+          "_id": "68c995d357916300158884ec",
+          "name": "Anatolian allies",
+          "allyArmyList": "68c995c35791630015886abc"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d357916300158884ed",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack donkeys"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9d9e1af060017709321"
+}

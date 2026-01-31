@@ -1,0 +1,441 @@
+{
+  "derivedData": {
+    "listStartDate": 960,
+    "listEndDate": 1126,
+    "extendedName": "Northern Song Chinese  960 to 1126 AD"
+  },
+  "keywords": [
+    "Chinese"
+  ],
+  "sortId": 327,
+  "sublistId": "a",
+  "name": "Northern Song Chinese",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18a6",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18a7",
+      "value": 3,
+      "note": "Under Zhao Kuangyin 960-976 AD"
+    },
+    {
+      "_id": "68c07ed25c431f0015cf18a8",
+      "value": 2,
+      "note": "Otherwise"
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Forest",
+        " Arable",
+        " Hilly"
+      ],
+      "_id": "68c07ed25c431f0015cf18a9",
+      "note": ""
+    }
+  ],
+  "listId": 326,
+  "dateRanges": [
+    {
+      "_id": "68c07ed25c431f0015cf18aa",
+      "startDate": 960,
+      "endDate": 1126
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e9579163001588c156",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c157",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Elite horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c158",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c159",
+          "startDate": 960,
+          "endDate": 978
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c15a",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Chinese horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c15b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c15c",
+          "startDate": 979,
+          "endDate": 1054
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c15d",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Chinese horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c15e",
+      "min": 4,
+      "max": 8,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c15f",
+          "troopTypeCode": "PAV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Imperial infantry",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c160",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HL",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c161",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c162",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Provincial infantry armed with mixed weapons",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c163",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c164",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Provincial crossbowmen and bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c165",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c166",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c167",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e9579163001588c168",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Picked infantry armed with axe or long swords, or with sword and shield",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c169",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c16a",
+          "startDate": 1090,
+          "endDate": 1126
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c16b",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Companies of bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c16c",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c16d",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c16e",
+          "troopTypeCode": "HRD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Militia",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c16f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c170",
+          "startDate": 1070,
+          "endDate": 1086
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c171",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Retrained militia spear",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c172",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c173",
+          "startDate": 1070,
+          "endDate": 1086
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c174",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Retrained militia crossbowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c175",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c176",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c177",
+          "startDate": 1055,
+          "endDate": 1126
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c178",
+          "troopTypeCode": "WWG",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "War wagons",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c179",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c17a",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Heavy stone-throwers or bolt-shooting giant crossbows",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e9579163001588c17b",
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c17c",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e9579163001588c17d",
+      "dateRange": {
+        "_id": "68c995e9579163001588c17e",
+        "startDate": 974,
+        "endDate": 976
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c17f",
+          "name": "Wu-Yueh allies",
+          "allyArmyList": "68c995d05791630015887ff0"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c180",
+      "dateRange": {
+        "_id": "68c995e9579163001588c181",
+        "startDate": 960,
+        "endDate": 978
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c182",
+          "name": "Hsi allies",
+          "allyArmyList": "68c995cf5791630015887f9c"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c183",
+      "dateRange": {
+        "_id": "68c995e9579163001588c184",
+        "startDate": 979,
+        "endDate": 1054
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c185",
+          "name": "(in South China) Zhuang tribal infantry",
+          "allyArmyList": "68c995d057916300158880a6"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e9579163001588c186",
+      "battleCardCode": "PD",
+      "note": "Ditch and bank, or palisade",
+      "min": 0,
+      "max": 3
+    },
+    {
+      "_id": "68c995e9579163001588c187",
+      "battleCardCode": "SC",
+      "note": "Stampeding oxen with burning brands"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f3e1af06001770a2be"
+}

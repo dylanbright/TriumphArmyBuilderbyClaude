@@ -1,0 +1,371 @@
+{
+  "derivedData": {
+    "listStartDate": 1261,
+    "listEndDate": 1384,
+    "extendedName": "Palaiologan Byzantine  1261 to 1384 AD"
+  },
+  "keywords": [
+    "Byzantine"
+  ],
+  "sortId": 247,
+  "sublistId": "a",
+  "name": "Palaiologan Byzantine",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec95c431f0015cf1491",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec95c431f0015cf1492",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec95c431f0015cf1493",
+      "note": ""
+    }
+  ],
+  "listId": 249,
+  "dateRanges": [
+    {
+      "_id": "68c07ec95c431f0015cf1494",
+      "startDate": 1261,
+      "endDate": 1384
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e3579163001588b0d5",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0d6",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tazkones or similar guards",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0d7",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0d8",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Kavallarioi",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0d9",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0da",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Stratiotai",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0db",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0dc",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Kontaratoi",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0dd",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0de",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e3579163001588b0df",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0e0",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0e1",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mourtatoi or Gianitzaroi guard bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0e2",
+      "min": 0,
+      "max": 10,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0e3",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Peasants, servants, and militia",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0e4",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [
+        {
+          "_id": "68c995e3579163001588b0e5",
+          "startDate": 1261,
+          "endDate": 1291
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0e6",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Cuman horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0e7",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e3579163001588b0e8",
+          "startDate": 1261,
+          "endDate": 1320
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0e9",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tourkopouloi or Vardariotai horse archer guards",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e3579163001588b0ea",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995e3579163001588b0eb",
+          "startDate": 1321,
+          "endDate": 1384
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0ec",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Catalan guard horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e3579163001588b0ed",
+      "troopEntries": [
+        {
+          "_id": "68c995e3579163001588b0ee",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e3579163001588b0ef",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b0f0",
+          "name": "Turkish allies",
+          "allyArmyList": "68c995ce5791630015887cc1"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0f1",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b0f2",
+          "name": "Turkish allies",
+          "allyArmyList": "68c995ce5791630015887cb2"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0f3",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b0f4",
+          "name": "Turkish allies",
+          "allyArmyList": "68c995ce5791630015887cb9"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0f5",
+      "dateRange": {
+        "_id": "68c995e3579163001588b0f6",
+        "startDate": 1282,
+        "endDate": 1283
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b0f7",
+          "name": "Golden Horde Mongol allies",
+          "allyArmyList": "68c995ce5791630015887cee"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0f8",
+      "dateRange": {
+        "_id": "68c995e3579163001588b0f9",
+        "startDate": 1301,
+        "endDate": 1305
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b0fa",
+          "name": "Alan allies",
+          "allyArmyList": "68c995ce5791630015887c3e"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0fb",
+      "dateRange": {
+        "_id": "68c995e3579163001588b0fc",
+        "startDate": 1327,
+        "endDate": 1352
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b0fd",
+          "name": "Serbian allies",
+          "allyArmyList": "68c995cd5791630015887a8b"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e3579163001588b0fe",
+      "dateRange": {
+        "_id": "68c995e3579163001588b0ff",
+        "startDate": 1327,
+        "endDate": 1352
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e3579163001588b100",
+          "name": "Bulgar allies",
+          "allyArmyList": "68c995cd5791630015887a6f"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9ebe1af060017709e99"
+}

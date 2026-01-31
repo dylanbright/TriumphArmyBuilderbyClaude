@@ -1,0 +1,208 @@
+{
+  "derivedData": {
+    "listStartDate": 900,
+    "listEndDate": 1600,
+    "extendedName": "Hausa States  900 to 1600 AD"
+  },
+  "keywords": [
+    "Saharan",
+    "Africa"
+  ],
+  "sortId": 182,
+  "sublistId": "a",
+  "name": "Hausa States",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec25c431f0015cf1159",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec25c431f0015cf115a",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe"
+      ],
+      "_id": "68c07ec25c431f0015cf115b",
+      "note": ""
+    }
+  ],
+  "listId": 185,
+  "dateRanges": [
+    {
+      "_id": "68c07ec25c431f0015cf115c",
+      "startDate": 900,
+      "endDate": 1600
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995df579163001588a399",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995df579163001588a39a",
+          "startDate": 900,
+          "endDate": 1390
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a39b",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a39c",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995df579163001588a39d",
+          "startDate": 1391,
+          "endDate": 1600
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a39e",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a39f",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995df579163001588a3a0",
+          "startDate": 1391,
+          "endDate": 1600
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3a1",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a3a2",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen, some with complete quilted armor for man and mount",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a3a3",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3a4",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spearmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a3a5",
+      "min": 14,
+      "max": 20,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3a6",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995df579163001588a3a7",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995df579163001588a3a8",
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3a9",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a3aa",
+          "troopTypeCode": "CAT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995df579163001588a3ab",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Palisade or thorn boma"
+    },
+    {
+      "_id": "68c995df579163001588a3ac",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "cattle herds"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e6e1af060017709b5d"
+}

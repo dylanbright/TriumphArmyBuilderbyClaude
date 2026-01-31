@@ -1,0 +1,299 @@
+{
+  "derivedData": {
+    "listStartDate": 553,
+    "listEndDate": 836,
+    "extendedName": "Avar  553 to 836 AD"
+  },
+  "keywords": [
+    "Hun",
+    "Steppe"
+  ],
+  "sortId": 149,
+  "sublistId": "a",
+  "name": "Avar",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebf5c431f0015cf0ff1",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebf5c431f0015cf0ff2",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe"
+      ],
+      "_id": "68c07ebf5c431f0015cf0ff3",
+      "note": ""
+    }
+  ],
+  "listId": 149,
+  "dateRanges": [
+    {
+      "_id": "68c07ebf5c431f0015cf0ff4",
+      "startDate": 553,
+      "endDate": 836
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995dd5791630015889e8a",
+      "min": 4,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e8b",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Noble horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e8c",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e8d",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e8e",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889e8f",
+          "startDate": 562,
+          "endDate": 836
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e90",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Gepid horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e91",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889e92",
+          "startDate": 558,
+          "endDate": 631
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e93",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bulgar horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e94",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889e95",
+          "startDate": 558,
+          "endDate": 631
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e96",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995dd5791630015889e97",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Slav javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e98",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889e99",
+          "startDate": 558,
+          "endDate": 631
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e9a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing Slav bow",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e9b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889e9c",
+          "startDate": 558,
+          "endDate": 631
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889e9d",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Slav javelinmen scouts",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dd5791630015889e9e",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995dd5791630015889e9f",
+          "startDate": 626,
+          "endDate": 626
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889ea0",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Rope-pull stone-throwers",
+      "note": "only assaulting Byzantium",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995dd5791630015889ea1",
+      "troopEntries": [
+        {
+          "_id": "68c995dd5791630015889ea2",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995dd5791630015889ea3",
+      "dateRange": {
+        "_id": "68c995dd5791630015889ea4",
+        "startDate": 626,
+        "endDate": 626
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dd5791630015889ea5",
+          "name": "Sassanid ally",
+          "allyArmyList": "68c995c9579163001588732d"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dd5791630015889ea6",
+      "dateRange": {
+        "_id": "68c995dd5791630015889ea7",
+        "startDate": 675,
+        "endDate": 805
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dd5791630015889ea8",
+          "name": "Bulgar ally",
+          "allyArmyList": "68c995c957916300158873e2"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995dd5791630015889ea9",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "horse herds"
+    },
+    {
+      "_id": "68c995dd5791630015889eaa",
+      "battleCardCode": "PD",
+      "note": "Mantlets or Palisades",
+      "min": 0,
+      "max": 2
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e4e1af0600177099f5"
+}

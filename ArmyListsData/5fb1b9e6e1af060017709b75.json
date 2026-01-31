@@ -1,0 +1,188 @@
+{
+  "derivedData": {
+    "listStartDate": 70,
+    "listEndDate": 1500,
+    "extendedName": "Sao City-States  70 to 1500 AD"
+  },
+  "keywords": [
+    "Saharan",
+    "Africa"
+  ],
+  "sortId": 184,
+  "sublistId": "a",
+  "name": "Sao City-States",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec25c431f0015cf116b",
+      "value": 0,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec25c431f0015cf116c",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        " Dry",
+        " Steppe"
+      ],
+      "_id": "68c07ec25c431f0015cf116d",
+      "note": "Before 900 AD"
+    },
+    {
+      "values": [
+        " Steppe",
+        " Forest"
+      ],
+      "_id": "68c07ec25c431f0015cf116e",
+      "note": "901-1450 AD"
+    },
+    {
+      "values": [
+        " Forest"
+      ],
+      "_id": "68c07ec25c431f0015cf116f",
+      "note": "1451-1600 AD"
+    }
+  ],
+  "listId": 186.5,
+  "dateRanges": [
+    {
+      "_id": "68c07ec25c431f0015cf1170",
+      "startDate": 70,
+      "endDate": 1500
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995df579163001588a3cb",
+      "min": 1,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3cc",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a3cd",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Nobles and followers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a3ce",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3cf",
+          "troopTypeCode": "LSP",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Spearmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995df579163001588a3d0",
+      "min": 12,
+      "max": 20,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3d1",
+          "troopTypeCode": "BLV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995df579163001588a3d2",
+          "min": null,
+          "max": null,
+          "battleCardCode": "SS",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995df579163001588a3d3",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3d4",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995df579163001588a3d5",
+      "troopEntries": [
+        {
+          "_id": "68c995df579163001588a3d6",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995df579163001588a3d7",
+          "troopTypeCode": "RDR",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [],
+  "battleCardEntries": [
+    {
+      "_id": "68c995df579163001588a3d8",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Palisade or thorn boma"
+    },
+    {
+      "_id": "68c995df579163001588a3d9",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "cattle herds"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e6e1af060017709b75"
+}

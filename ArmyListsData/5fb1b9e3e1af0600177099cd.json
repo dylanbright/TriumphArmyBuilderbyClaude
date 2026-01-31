@@ -1,0 +1,191 @@
+{
+  "derivedData": {
+    "listStartDate": 25,
+    "listEndDate": 696,
+    "extendedName": "Later Moorish  25 to 696 AD"
+  },
+  "keywords": [],
+  "sortId": 146,
+  "sublistId": "a",
+  "name": "Later Moorish",
+  "invasionRatings": [
+    {
+      "_id": "68c07ebf5c431f0015cf0fc9",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ebf5c431f0015cf0fca",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly"
+      ],
+      "_id": "68c07ebf5c431f0015cf0fcb",
+      "note": ""
+    }
+  ],
+  "listId": 146,
+  "dateRanges": [
+    {
+      "_id": "68c07ebf5c431f0015cf0fcc",
+      "startDate": 25,
+      "endDate": 696
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995dc5791630015889e04",
+      "min": 3,
+      "max": 9,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889e05",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889e06",
+      "min": 4,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889e07",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Javelinmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995dc5791630015889e08",
+          "min": 0,
+          "max": 4,
+          "battleCardCode": "CF",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889e09",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889e0a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing slingers and bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995dc5791630015889e0b",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889e0c",
+          "troopTypeCode": "RBL",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Elderly, women, children, and slaves",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995dc5791630015889e0d",
+      "troopEntries": [
+        {
+          "_id": "68c995dc5791630015889e0e",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995dc5791630015889e0f",
+      "dateRange": {
+        "_id": "68c995dc5791630015889e10",
+        "startDate": 546,
+        "endDate": 548
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dc5791630015889e11",
+          "name": "Byzantine allies",
+          "allyArmyList": "68c995c957916300158873aa"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889e12",
+      "dateRange": {
+        "_id": "68c995dc5791630015889e13",
+        "startDate": 533,
+        "endDate": 548
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dc5791630015889e14",
+          "name": "Vandal fugitive allies",
+          "allyArmyList": "68c995c957916300158873a0"
+        }
+      ]
+    },
+    {
+      "_id": "68c995dc5791630015889e15",
+      "dateRange": {
+        "_id": "68c995dc5791630015889e16",
+        "startDate": 681,
+        "endDate": 681
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995dc5791630015889e17",
+          "name": "Byzantine allies",
+          "allyArmyList": "68c995cc5791630015887a1d"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [],
+  "showTroopOptionDescriptions": true,
+  "status": "Ready",
+  "id": "5fb1b9e3e1af0600177099cd"
+}

@@ -1,0 +1,417 @@
+{
+  "derivedData": {
+    "listStartDate": 1260,
+    "listEndDate": 1368,
+    "extendedName": "Yuan in the North  1260 to 1368 AD"
+  },
+  "keywords": [
+    "Mongol",
+    "Chinese"
+  ],
+  "sortId": 329,
+  "sublistId": "a",
+  "name": "Yuan in the North",
+  "invasionRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18c9",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ed25c431f0015cf18ca",
+      "value": 3,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Steppe"
+      ],
+      "_id": "68c07ed25c431f0015cf18cb",
+      "note": ""
+    }
+  ],
+  "listId": 328,
+  "dateRanges": [
+    {
+      "_id": "68c07ed25c431f0015cf18cc",
+      "startDate": 1260,
+      "endDate": 1368
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995e9579163001588c1eb",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1ec",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Guard horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c1ed",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c1ee",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1ef",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Chinese guards",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c1f0",
+          "min": null,
+          "max": null,
+          "battleCardCode": "HL",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c1f1",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c1f2",
+          "startDate": 1260,
+          "endDate": 1274
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1f3",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "North Chinese subject horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c1f4",
+      "min": 2,
+      "max": 7,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c1f5",
+          "startDate": 1260,
+          "endDate": 1300
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1f6",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mongol horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c1f7",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c1f8",
+      "min": 2,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c1f9",
+          "startDate": 1301,
+          "endDate": 1368
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1fa",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Menggu jun settled Mongol horse archers with inferior mounts and training",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c1fb",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c1fc",
+      "min": 0,
+      "max": 4,
+      "dateRanges": [
+        {
+          "_id": "68c995e9579163001588c1fd",
+          "startDate": 1301,
+          "endDate": 1368
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c1fe",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e9579163001588c1ff",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Mongol horse archers who retained their steppe skills; or Menggu jun settled Mongol horse archers with inferior mounts and training",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995e9579163001588c200",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Archer"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c201",
+      "min": 1,
+      "max": 3,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c202",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Tammachi horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995e9579163001588c203",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c204",
+          "troopTypeCode": "ART",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Bolt shooters and counterweight stone-throwers",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995e9579163001588c205",
+      "troopEntries": [
+        {
+          "_id": "68c995e9579163001588c206",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995e9579163001588c207",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995e9579163001588c208",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c209",
+          "name": "North Chinese subjects",
+          "allyArmyList": "68c995d05791630015888102"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c20a",
+      "dateRange": {
+        "_id": "68c995e9579163001588c20b",
+        "startDate": 1260,
+        "endDate": 1263
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c20c",
+          "name": "Chagadai Mongol allies",
+          "allyArmyList": "68c995d0579163001588804c"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c20d",
+      "dateRange": {
+        "_id": "68c995e9579163001588c20e",
+        "startDate": 1260,
+        "endDate": 1329
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c20f",
+          "name": "(only in Central Asia) Uighur allies",
+          "allyArmyList": "68c995ce5791630015887d54"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c210",
+      "dateRange": {
+        "_id": "68c995e9579163001588c211",
+        "startDate": 1260,
+        "endDate": 1263
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c212",
+          "name": "Chagadai Mongol allies",
+          "allyArmyList": "68c995d0579163001588804c"
+        },
+        {
+          "_id": "68c995e9579163001588c213",
+          "name": "North Chinese subjects",
+          "allyArmyList": "68c995d05791630015888102"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c214",
+      "dateRange": {
+        "_id": "68c995e9579163001588c215",
+        "startDate": 1260,
+        "endDate": 1329
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c216",
+          "name": "(only in Central Asia) Uighur allies",
+          "allyArmyList": "68c995ce5791630015887d54"
+        },
+        {
+          "_id": "68c995e9579163001588c217",
+          "name": "North Chinese subjects",
+          "allyArmyList": "68c995d05791630015888102"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c218",
+      "dateRange": {
+        "_id": "68c995e9579163001588c219",
+        "startDate": 1301,
+        "endDate": 1368
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c21a",
+          "name": "(only in Korea) Korean allies",
+          "allyArmyList": "68c995d15791630015888197"
+        }
+      ]
+    },
+    {
+      "_id": "68c995e9579163001588c21b",
+      "dateRange": {
+        "_id": "68c995e9579163001588c21c",
+        "startDate": 1301,
+        "endDate": 1368
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995e9579163001588c21d",
+          "name": "(only in Korea) Korean allies",
+          "allyArmyList": "68c995d15791630015888197"
+        },
+        {
+          "_id": "68c995e9579163001588c21e",
+          "name": "North Chinese subjects",
+          "allyArmyList": "68c995d05791630015888102"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995e9579163001588c21f",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pony herd"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9f3e1af06001770a2e1"
+}

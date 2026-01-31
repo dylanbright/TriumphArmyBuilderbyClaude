@@ -1,0 +1,227 @@
+{
+  "derivedData": {
+    "listStartDate": -722,
+    "listEndDate": -300,
+    "extendedName": "Kimmerian and Skythian  722 to 300 BC"
+  },
+  "keywords": [
+    "Steppe",
+    "Scythian"
+  ],
+  "sortId": 38,
+  "sublistId": "a",
+  "name": "Kimmerian and Skythian",
+  "invasionRatings": [
+    {
+      "_id": "68c07eb45c431f0015cf0a2c",
+      "value": 4,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07eb45c431f0015cf0a2d",
+      "value": 2,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Hilly",
+        " Steppe"
+      ],
+      "_id": "68c07eb45c431f0015cf0a2e",
+      "note": ""
+    }
+  ],
+  "listId": 38,
+  "dateRanges": [
+    {
+      "_id": "68c07eb45c431f0015cf0a2f",
+      "startDate": -722,
+      "endDate": -300
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995d457916300158888e6",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995d457916300158888e7",
+          "startDate": -500,
+          "endDate": -300
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995d457916300158888e8",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Noble armored horsemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995d457916300158888e9",
+      "min": 6,
+      "max": 12,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995d457916300158888ea",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horse archers",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995d457916300158888eb",
+      "troopEntries": [
+        {
+          "_id": "68c995d457916300158888ec",
+          "troopTypeCode": "ECV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995d457916300158888ed",
+      "troopEntries": [
+        {
+          "_id": "68c995d457916300158888ee",
+          "troopTypeCode": "HBW",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995d457916300158888ef",
+      "dateRange": null,
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d457916300158888f0",
+          "name": "Tribal Foot Contingent",
+          "allyArmyList": "68c995c55791630015886c30"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d457916300158888f1",
+      "dateRange": {
+        "_id": "68c995d457916300158888f2",
+        "startDate": -720,
+        "endDate": -641
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d457916300158888f3",
+          "name": "(Kimmerian) Urartian Allies",
+          "allyArmyList": "68c995c55791630015886bf5"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d457916300158888f4",
+      "dateRange": {
+        "_id": "68c995d457916300158888f5",
+        "startDate": -722,
+        "endDate": -641
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d457916300158888f6",
+          "name": "(Kimmerian) Mannaian Allies",
+          "allyArmyList": "68c995c55791630015886be8"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d457916300158888f7",
+      "dateRange": {
+        "_id": "68c995d457916300158888f8",
+        "startDate": -680,
+        "endDate": -675
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d457916300158888f9",
+          "name": "(Kimmerian) Lowland Thracian allies",
+          "allyArmyList": "68c995c65791630015886f68"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d457916300158888fa",
+      "dateRange": {
+        "_id": "68c995d457916300158888fb",
+        "startDate": -313,
+        "endDate": -313
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d457916300158888fc",
+          "name": "(European Skythian) Black Sea Greek allies",
+          "allyArmyList": "68c995c65791630015886f2d"
+        }
+      ]
+    },
+    {
+      "_id": "68c995d457916300158888fd",
+      "dateRange": {
+        "_id": "68c995d457916300158888fe",
+        "startDate": -313,
+        "endDate": -313
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995d457916300158888ff",
+          "name": "(European Skythian) Lowland Thracian allies",
+          "allyArmyList": "68c995c65791630015886f68"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995d45791630015888900",
+      "min": null,
+      "max": null,
+      "battleCardCode": "FC",
+      "note": "Wagon laager"
+    },
+    {
+      "_id": "68c995d45791630015888901",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "pack ponies"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9dae1af060017709430"
+}

@@ -1,0 +1,370 @@
+{
+  "derivedData": {
+    "listStartDate": 1293,
+    "listEndDate": 1515,
+    "extendedName": "Anglo-Irish  1293 to 1515 AD"
+  },
+  "keywords": [
+    "England",
+    "English"
+  ],
+  "sortId": 173,
+  "sublistId": "b",
+  "name": "Anglo-Irish",
+  "invasionRatings": [
+    {
+      "_id": "68c07ec15c431f0015cf10fe",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "maneuverRatings": [
+    {
+      "_id": "68c07ec15c431f0015cf10ff",
+      "value": 1,
+      "note": null
+    }
+  ],
+  "homeTopographies": [
+    {
+      "values": [
+        "Arable"
+      ],
+      "_id": "68c07ec15c431f0015cf1100",
+      "note": ""
+    }
+  ],
+  "listId": 172,
+  "dateRanges": [
+    {
+      "_id": "68c07ec15c431f0015cf1101",
+      "startDate": 1293,
+      "endDate": 1515
+    }
+  ],
+  "troopOptions": [
+    {
+      "_id": "68c995de579163001588a234",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a235",
+          "startDate": 1293,
+          "endDate": 1403
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a236",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Men-at-arms (English 1328 AD and later)",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995de579163001588a237",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "1328-1515 AD: as Elite Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a238",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a239",
+          "startDate": 1293,
+          "endDate": 1403
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a23a",
+          "troopTypeCode": "BAD",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Hobilars",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995de579163001588a23b",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Light Foot"
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a23c",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a23d",
+          "startDate": 1404,
+          "endDate": 1515
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a23e",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Horsemen armed with spears",
+      "note": "",
+      "core": "",
+      "battleCardEntries": [
+        {
+          "_id": "68c995de579163001588a23f",
+          "min": null,
+          "max": null,
+          "battleCardCode": "DD",
+          "note": "as Raider"
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a240",
+      "min": 2,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a241",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Colonist bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a242",
+      "min": 0,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a243",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "English bowmen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": [
+        {
+          "_id": "68c995de579163001588a244",
+          "min": null,
+          "max": null,
+          "battleCardCode": "MI",
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a245",
+      "min": 1,
+      "max": 4,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a246",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Colonist foot sergeants (billmen after 1403)",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a247",
+      "min": 3,
+      "max": 6,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a248",
+          "troopTypeCode": "LFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Kern javelinmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a249",
+      "min": 1,
+      "max": 2,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a24a",
+          "troopTypeCode": "SKM",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Skirmishing Irish bowmen",
+      "note": "",
+      "core": "",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a24b",
+      "min": 0,
+      "max": 1,
+      "dateRanges": [],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a24c",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Sersenaigh armored mercenary axemen",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    },
+    {
+      "_id": "68c995de579163001588a24d",
+      "min": 0,
+      "max": 3,
+      "dateRanges": [
+        {
+          "_id": "68c995de579163001588a24e",
+          "startDate": 1328,
+          "endDate": 1403
+        }
+      ],
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a24f",
+          "troopTypeCode": "EFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ],
+      "description": "Galloglaich",
+      "note": "",
+      "core": "all",
+      "battleCardEntries": []
+    }
+  ],
+  "troopEntriesForGeneral": [
+    {
+      "_id": "68c995de579163001588a250",
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a251",
+          "troopTypeCode": "KNT",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995de579163001588a252",
+          "troopTypeCode": "JCV",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a253",
+      "troopEntries": [
+        {
+          "_id": "68c995de579163001588a254",
+          "troopTypeCode": "ARC",
+          "dismountTypeCode": null,
+          "note": null
+        },
+        {
+          "_id": "68c995de579163001588a255",
+          "troopTypeCode": "HFT",
+          "dismountTypeCode": null,
+          "note": null
+        }
+      ]
+    }
+  ],
+  "allyOptions": [
+    {
+      "_id": "68c995de579163001588a256",
+      "dateRange": {
+        "_id": "68c995de579163001588a257",
+        "startDate": 1300,
+        "endDate": 1403
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995de579163001588a258",
+          "name": "Irish Allies",
+          "allyArmyList": "68c995ca5791630015887516"
+        }
+      ]
+    },
+    {
+      "_id": "68c995de579163001588a259",
+      "dateRange": {
+        "_id": "68c995de579163001588a25a",
+        "startDate": 1300,
+        "endDate": 1403
+      },
+      "note": null,
+      "allyEntries": [
+        {
+          "_id": "68c995de579163001588a25b",
+          "name": "Irish Allies",
+          "allyArmyList": "68c995ca5791630015887516"
+        },
+        {
+          "_id": "68c995de579163001588a25c",
+          "name": "Irish Allies",
+          "allyArmyList": "68c995ca5791630015887516"
+        }
+      ]
+    }
+  ],
+  "battleCardEntries": [
+    {
+      "_id": "68c995de579163001588a25d",
+      "min": null,
+      "max": null,
+      "battleCardCode": "PT",
+      "note": "cattle herd"
+    }
+  ],
+  "showTroopOptionDescriptions": true,
+  "status": "Revised",
+  "id": "5fb1b9e5e1af060017709b02"
+}
