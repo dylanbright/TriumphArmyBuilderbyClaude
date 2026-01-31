@@ -86,6 +86,8 @@ const totalPointsEl = document.getElementById('totalPoints');
 const maxPointsEl = document.getElementById('maxPoints');
 const pointsFillEl = document.getElementById('pointsFill');
 const troopListEl = document.getElementById('troopList');
+const summaryContentEl = document.getElementById('summaryContent');
+const printSummaryBtn = document.getElementById('printSummary');
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
@@ -95,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadArmyBtn.addEventListener('click', loadArmy);
     armySearchInput.addEventListener('input', filterArmyList);
     armySelectEl.addEventListener('dblclick', loadArmy);
+    printSummaryBtn.addEventListener('click', openPrintView);
 
     maxPointsEl.textContent = MAX_POINTS;
 });
@@ -585,6 +588,280 @@ function updateTotalPoints() {
         totalPointsEl.classList.remove('over-limit');
         pointsFillEl.classList.remove('over-limit');
     }
+
+    // Update the summary
+    renderSummary(total);
+}
+
+// Render army summary
+function renderSummary(totalPoints) {
+    if (!summaryContentEl || !armyData) return;
+
+    let html = '<table class="summary-table">';
+    html += '<thead><tr><th>Troop Type</th><th>Description</th><th class="count">Bases</th><th class="points">Points</th></tr></thead>';
+    html += '<tbody>';
+
+    const selectedTroops = [];
+    const selectedBattleCards = [];
+
+    // Collect troop selections
+    armyData.troopOptions.forEach((option, index) => {
+        const selection = troopSelections[index];
+        if (selection.count > 0) {
+            const selectedTroopEntry = option.troopEntries[selection.selectedTroopTypeIndex];
+            const troopType = troopTypes[selectedTroopEntry.troopTypeCode];
+            const baseCost = troopType ? troopType.cost : 0;
+            let troopPoints = selection.count * baseCost;
+
+            // Calculate battle card costs for this troop
+            let cardCosts = 0;
+            if (option.battleCardEntries && selection.battleCards) {
+                option.battleCardEntries.forEach(bc => {
+                    if (selection.battleCards[bc.battleCardCode]) {
+                        const cardData = BATTLE_CARDS_DATA[bc.battleCardCode];
+                        if (cardData) {
+                            if (cardData.costType === 'flat') {
+                                cardCosts += cardData.cost;
+                            } else if (cardData.costType === 'perStand') {
+                                cardCosts += cardData.cost * selection.count;
+                            }
+                            selectedBattleCards.push({
+                                name: cardData.displayName,
+                                troop: option.description,
+                                cost: cardData.costType === 'perStand' ? cardData.cost * selection.count : cardData.cost
+                            });
+                        }
+                    }
+                });
+            }
+
+            selectedTroops.push({
+                type: troopType ? `${troopType.displayName} (${troopType.displayCode})` : selectedTroopEntry.troopTypeCode,
+                description: option.description,
+                count: selection.count,
+                points: troopPoints + cardCosts
+            });
+        }
+    });
+
+    // Add army-level battle cards
+    if (armyData.battleCardEntries) {
+        armyData.battleCardEntries.forEach(bc => {
+            if (armyBattleCardSelections[bc.battleCardCode]) {
+                const cardData = BATTLE_CARDS_DATA[bc.battleCardCode];
+                if (cardData) {
+                    selectedBattleCards.push({
+                        name: cardData.displayName,
+                        troop: 'Army',
+                        cost: cardData.cost
+                    });
+                }
+            }
+        });
+    }
+
+    // Build table rows
+    selectedTroops.forEach(troop => {
+        html += `<tr>
+            <td>${troop.type}</td>
+            <td>${troop.description}</td>
+            <td class="count">${troop.count}</td>
+            <td class="points">${troop.points} pts</td>
+        </tr>`;
+    });
+
+    html += '</tbody></table>';
+
+    // Total
+    html += `<div class="summary-total">Total: <span class="points-value">${totalPoints} / ${MAX_POINTS} points</span></div>`;
+
+    // Battle cards section
+    if (selectedBattleCards.length > 0) {
+        html += '<div class="summary-battle-cards"><h4>Selected Battle Cards</h4><ul>';
+        selectedBattleCards.forEach(card => {
+            const costText = card.cost !== 0 ? ` (${card.cost > 0 ? '+' : ''}${card.cost} pts)` : '';
+            html += `<li>${card.name}${costText} - ${card.troop}</li>`;
+        });
+        html += '</ul></div>';
+    }
+
+    summaryContentEl.innerHTML = html;
+}
+
+// Open printer-friendly view
+function openPrintView() {
+    if (!armyData) return;
+
+    // Gather all the data
+    const armyName = armyData.derivedData?.extendedName || armyData.name;
+    const invasionRating = armyData.invasionRatings?.[0]?.value || '-';
+    const maneuverRating = armyData.maneuverRatings?.[0]?.value || '-';
+    const homeTopography = armyData.homeTopographies?.[0]?.values?.join(', ') || '-';
+
+    let generalType = '-';
+    if (armyData.troopEntriesForGeneral?.[0]?.troopEntries) {
+        generalType = armyData.troopEntriesForGeneral[0].troopEntries.map(entry => {
+            const tt = troopTypes[entry.troopTypeCode];
+            return tt ? tt.displayName : entry.troopTypeCode;
+        }).join(' or ');
+    }
+
+    // Calculate total and gather troops
+    let totalPoints = 0;
+    const troops = [];
+    const battleCards = [];
+
+    // Army battle cards
+    if (armyData.battleCardEntries) {
+        armyData.battleCardEntries.forEach(bc => {
+            if (armyBattleCardSelections[bc.battleCardCode]) {
+                const cardData = BATTLE_CARDS_DATA[bc.battleCardCode];
+                if (cardData) {
+                    if (cardData.costType === 'flat') {
+                        totalPoints += cardData.cost;
+                    }
+                    battleCards.push({ name: cardData.displayName, troop: 'Army', cost: cardData.cost });
+                }
+            }
+        });
+    }
+
+    armyData.troopOptions.forEach((option, index) => {
+        const selection = troopSelections[index];
+        if (selection.count > 0) {
+            const selectedTroopEntry = option.troopEntries[selection.selectedTroopTypeIndex];
+            const troopType = troopTypes[selectedTroopEntry.troopTypeCode];
+            const baseCost = troopType ? troopType.cost : 0;
+            let troopPoints = selection.count * baseCost;
+            totalPoints += troopPoints;
+
+            // Battle cards
+            if (option.battleCardEntries && selection.battleCards) {
+                option.battleCardEntries.forEach(bc => {
+                    if (selection.battleCards[bc.battleCardCode]) {
+                        const cardData = BATTLE_CARDS_DATA[bc.battleCardCode];
+                        if (cardData) {
+                            let cardCost = 0;
+                            if (cardData.costType === 'flat') {
+                                cardCost = cardData.cost;
+                            } else if (cardData.costType === 'perStand') {
+                                cardCost = cardData.cost * selection.count;
+                            }
+                            totalPoints += cardCost;
+                            troopPoints += cardCost;
+                            battleCards.push({ name: cardData.displayName, troop: option.description, cost: cardCost });
+                        }
+                    }
+                });
+            }
+
+            troops.push({
+                type: troopType ? `${troopType.displayName} (${troopType.displayCode})` : selectedTroopEntry.troopTypeCode,
+                description: option.description,
+                count: selection.count,
+                points: troopPoints,
+                isBattleLine: option.core === 'all'
+            });
+        }
+    });
+
+    // Build print HTML
+    const printHTML = `<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>${armyName} - Army List</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Georgia, serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 1.5rem; margin-bottom: 5px; border-bottom: 2px solid #333; padding-bottom: 5px; }
+        .subtitle { color: #666; margin-bottom: 15px; }
+        .stats { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; padding: 10px; background: #f5f5f5; }
+        .stat { flex: 1; min-width: 150px; }
+        .stat-label { font-weight: bold; font-size: 0.85rem; color: #666; }
+        .stat-value { font-size: 1rem; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #f0f0f0; font-weight: bold; }
+        .count { text-align: center; }
+        .points { text-align: right; }
+        .battle-line { background: #fffde7; }
+        .total { text-align: right; font-weight: bold; font-size: 1.1rem; padding: 10px 0; border-top: 2px solid #333; }
+        .battle-cards { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ddd; }
+        .battle-cards h3 { font-size: 1rem; margin-bottom: 10px; }
+        .battle-cards ul { padding-left: 20px; }
+        .battle-cards li { margin-bottom: 5px; }
+        @media print {
+            body { padding: 0; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <h1>${armyName}</h1>
+    <p class="subtitle">Triumph! Army List - ${totalPoints} / ${MAX_POINTS} points</p>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-label">Invasion Rating</div>
+            <div class="stat-value">${invasionRating}</div>
+        </div>
+        <div class="stat">
+            <div class="stat-label">Maneuver Rating</div>
+            <div class="stat-value">${maneuverRating}</div>
+        </div>
+        <div class="stat">
+            <div class="stat-label">Home Topography</div>
+            <div class="stat-value">${homeTopography}</div>
+        </div>
+        <div class="stat">
+            <div class="stat-label">General's Troop Type</div>
+            <div class="stat-value">${generalType}</div>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Troop Type</th>
+                <th>Description</th>
+                <th class="count">Bases</th>
+                <th class="points">Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            ${troops.map(t => `
+                <tr class="${t.isBattleLine ? 'battle-line' : ''}">
+                    <td>${t.type}</td>
+                    <td>${t.description}${t.isBattleLine ? ' *' : ''}</td>
+                    <td class="count">${t.count}</td>
+                    <td class="points">${t.points}</td>
+                </tr>
+            `).join('')}
+        </tbody>
+    </table>
+
+    <div class="total">Total: ${totalPoints} / ${MAX_POINTS} points</div>
+
+    ${battleCards.length > 0 ? `
+        <div class="battle-cards">
+            <h3>Battle Cards</h3>
+            <ul>
+                ${battleCards.map(c => `<li><strong>${c.name}</strong> (${c.troop})${c.cost !== 0 ? ` - ${c.cost > 0 ? '+' : ''}${c.cost} pts` : ''}</li>`).join('')}
+            </ul>
+        </div>
+    ` : ''}
+
+    <p style="margin-top: 20px; font-size: 0.8rem; color: #666;">* Battle Line troops</p>
+
+    <button class="no-print" onclick="window.print()" style="margin-top: 20px; padding: 10px 20px; cursor: pointer;">Print</button>
+</body>
+</html>`;
+
+    // Open in new window
+    const printWindow = window.open('', '_blank');
+    printWindow.document.write(printHTML);
+    printWindow.document.close();
 }
 
 // UI Helpers
