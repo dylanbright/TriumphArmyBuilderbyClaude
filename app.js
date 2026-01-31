@@ -720,7 +720,7 @@ function openPrintView() {
                     if (cardData.costType === 'flat') {
                         totalPoints += cardData.cost;
                     }
-                    battleCards.push({ name: cardData.displayName, troop: 'Army', cost: cardData.cost });
+                    battleCards.push({ code: bc.battleCardCode, name: cardData.displayName, troop: 'Army', cost: cardData.cost });
                 }
             }
         });
@@ -749,7 +749,7 @@ function openPrintView() {
                             }
                             totalPoints += cardCost;
                             troopPoints += cardCost;
-                            battleCards.push({ name: cardData.displayName, troop: option.description, cost: cardCost });
+                            battleCards.push({ code: bc.battleCardCode, name: cardData.displayName, troop: option.description, cost: cardCost });
                         }
                     }
                 });
@@ -788,9 +788,15 @@ function openPrintView() {
         .battle-line { background: #fffde7; }
         .total { text-align: right; font-weight: bold; font-size: 1.1rem; padding: 10px 0; border-top: 2px solid #333; }
         .battle-cards { margin-top: 20px; padding-top: 15px; border-top: 1px solid #ddd; }
-        .battle-cards h3 { font-size: 1rem; margin-bottom: 10px; }
-        .battle-cards ul { padding-left: 20px; }
-        .battle-cards li { margin-bottom: 5px; }
+        .battle-cards h3 { font-size: 1.1rem; margin-bottom: 15px; }
+        .card-entry { margin-bottom: 20px; padding: 15px; background: #f9f9f9; border-left: 3px solid #666; }
+        .card-entry h4 { font-size: 1rem; margin-bottom: 5px; color: #333; }
+        .card-entry .card-for { font-size: 0.85rem; color: #666; margin-bottom: 10px; }
+        .card-entry .card-description { font-size: 0.9rem; line-height: 1.5; }
+        .card-entry .card-description h4 { font-size: 0.95rem; margin-top: 10px; margin-bottom: 5px; color: #555; }
+        .card-entry .card-description p { margin-bottom: 8px; }
+        .card-entry .card-description ul { margin: 8px 0; padding-left: 25px; }
+        .card-entry .card-description li { margin-bottom: 4px; }
         @media print {
             body { padding: 0; }
             .no-print { display: none; }
@@ -846,9 +852,16 @@ function openPrintView() {
     ${battleCards.length > 0 ? `
         <div class="battle-cards">
             <h3>Battle Cards</h3>
-            <ul>
-                ${battleCards.map(c => `<li><strong>${c.name}</strong> (${c.troop})${c.cost !== 0 ? ` - ${c.cost > 0 ? '+' : ''}${c.cost} pts` : ''}</li>`).join('')}
-            </ul>
+            ${battleCards.map(c => {
+                const cardText = typeof BATTLE_CARDS_TEXT !== 'undefined' ? BATTLE_CARDS_TEXT[c.code] : '';
+                return `
+                    <div class="card-entry">
+                        <h4>${c.name}${c.cost !== 0 ? ` (${c.cost > 0 ? '+' : ''}${c.cost} pts)` : ''}</h4>
+                        <div class="card-for">Applied to: ${c.troop}</div>
+                        ${cardText ? `<div class="card-description">${cardText}</div>` : ''}
+                    </div>
+                `;
+            }).join('')}
         </div>
     ` : ''}
 
