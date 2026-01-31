@@ -13,8 +13,13 @@
         </header>
 
         <section class="army-loader">
-            <label for="armyId">Army List ID:</label>
-            <input type="text" id="armyId" placeholder="e.g., 5fb1b9d9e1af060017709379">
+            <div class="army-select-wrapper">
+                <label for="armySelect">Select Army:</label>
+                <input type="text" id="armySearch" placeholder="Type to search armies..." autocomplete="off">
+                <select id="armySelect" size="8">
+                    <option value="">-- Select an army --</option>
+                </select>
+            </div>
             <button id="loadArmy">Load Army</button>
         </section>
 
@@ -67,6 +72,7 @@
         </main>
     </div>
 
+    <script src="armyListsCompact.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

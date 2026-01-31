@@ -31,30 +31,64 @@ header h1 {
 
 .army-loader {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
     flex-wrap: wrap;
 }
 
-.army-loader label {
-    font-weight: bold;
+.army-select-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.army-loader input {
+.army-select-wrapper label {
+    font-weight: bold;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+#armySearch {
     padding: 10px 15px;
     font-size: 1rem;
     border: 2px solid #3a3a5a;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     background-color: #2a2a4a;
     color: #eee;
-    width: 300px;
+    width: 400px;
 }
 
-.army-loader input:focus {
+#armySearch:focus {
     outline: none;
     border-color: #c9a227;
+}
+
+#armySelect {
+    padding: 5px;
+    font-size: 0.95rem;
+    border: 2px solid #3a3a5a;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #2a2a4a;
+    color: #eee;
+    width: 400px;
+    cursor: pointer;
+}
+
+#armySelect:focus {
+    outline: none;
+    border-color: #c9a227;
+}
+
+#armySelect option {
+    padding: 8px 10px;
+}
+
+#armySelect option:checked {
+    background-color: #c9a227;
+    color: #1a1a2e;
 }
 
 .army-loader button {
@@ -67,6 +101,8 @@ header h1 {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.2s;
+    align-self: flex-end;
+    margin-bottom: 5px;
 }
 
 .army-loader button:hover {

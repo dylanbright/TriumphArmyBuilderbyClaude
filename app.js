@@ -79,7 +79,8 @@ let armyBattleCardSelections = {};
 
 // DOM Elements
 const loadArmyBtn = document.getElementById('loadArmy');
-const armyIdInput = document.getElementById('armyId');
+const armySearchInput = document.getElementById('armySearch');
+const armySelectEl = document.getElementById('armySelect');
 const loadingEl = document.getElementById('loading');
 const errorEl = document.getElementById('error');
 const armyBuilderEl = document.getElementById('armyBuilder');
@@ -96,14 +97,45 @@ const troopListEl = document.getElementById('troopList');
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
     loadTroopTypes();
+    populateArmyDropdown();
 
     loadArmyBtn.addEventListener('click', loadArmy);
-    armyIdInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') loadArmy();
-    });
+    armySearchInput.addEventListener('input', filterArmyList);
+    armySelectEl.addEventListener('dblclick', loadArmy);
 
     maxPointsEl.textContent = MAX_POINTS;
 });
+
+// Populate the army dropdown
+function populateArmyDropdown(filter = '') {
+    armySelectEl.innerHTML = '';
+
+    const filterLower = filter.toLowerCase();
+    const filteredArmies = filter
+        ? ARMY_LISTS_DATA.filter(army => army.name.toLowerCase().includes(filterLower))
+        : ARMY_LISTS_DATA;
+
+    if (filteredArmies.length === 0) {
+        const opt = document.createElement('option');
+        opt.value = '';
+        opt.textContent = '-- No armies match your search --';
+        armySelectEl.appendChild(opt);
+        return;
+    }
+
+    filteredArmies.forEach(army => {
+        const opt = document.createElement('option');
+        opt.value = army.id;
+        opt.textContent = army.name;
+        armySelectEl.appendChild(opt);
+    });
+}
+
+// Filter army list based on search input
+function filterArmyList() {
+    const searchTerm = armySearchInput.value.trim();
+    populateArmyDropdown(searchTerm);
+}
 
 // Load troop types from embedded data
 function loadTroopTypes() {
@@ -138,9 +170,9 @@ async function fetchWithProxy(apiUrl) {
 
 // Load army data from API
 async function loadArmy() {
-    const armyId = armyIdInput.value.trim();
+    const armyId = armySelectEl.value;
     if (!armyId) {
-        showError('Please enter an Army List ID');
+        showError('Please select an army from the list');
         return;
     }
 
