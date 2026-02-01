@@ -73,9 +73,13 @@ let armyBattleCardSelections = {};
 // DOM Elements
 const loadArmyBtn = document.getElementById('loadArmy');
 const armySearchInput = document.getElementById('armySearch');
-const armySelectEl = document.getElementById('armySelect');
+const armyDropdownEl = document.getElementById('armyDropdown');
+const resultsCountEl = document.getElementById('resultsCount');
 const loadingEl = document.getElementById('loading');
 const errorEl = document.getElementById('error');
+
+// Currently selected army
+let selectedArmyId = null;
 const armyBuilderEl = document.getElementById('armyBuilder');
 const armyNameEl = document.getElementById('armyName');
 const invasionRatingEl = document.getElementById('invasionRating');
@@ -96,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadArmyBtn.addEventListener('click', loadArmy);
     armySearchInput.addEventListener('input', filterArmyList);
-    armySelectEl.addEventListener('dblclick', loadArmy);
     printSummaryBtn.addEventListener('click', openPrintView);
 
     maxPointsEl.textContent = MAX_POINTS;
@@ -104,26 +107,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Populate the army dropdown
 function populateArmyDropdown(filter = '') {
-    armySelectEl.innerHTML = '';
+    armyDropdownEl.innerHTML = '';
 
     const filterLower = filter.toLowerCase();
     const filteredArmies = filter
         ? ARMY_LISTS_DATA.filter(army => army.name.toLowerCase().includes(filterLower))
         : ARMY_LISTS_DATA;
 
+    // Update results count
+    if (filter) {
+        resultsCountEl.textContent = `${filteredArmies.length} of ${ARMY_LISTS_DATA.length} armies match`;
+    } else {
+        resultsCountEl.textContent = `${ARMY_LISTS_DATA.length} armies available`;
+    }
+
     if (filteredArmies.length === 0) {
-        const opt = document.createElement('option');
-        opt.value = '';
-        opt.textContent = '-- No armies match your search --';
-        armySelectEl.appendChild(opt);
+        const div = document.createElement('div');
+        div.className = 'army-option no-results';
+        div.textContent = 'No armies match your search';
+        armyDropdownEl.appendChild(div);
         return;
     }
 
     filteredArmies.forEach(army => {
-        const opt = document.createElement('option');
-        opt.value = army.id;
-        opt.textContent = army.name;
-        armySelectEl.appendChild(opt);
+        const div = document.createElement('div');
+        div.className = 'army-option';
+        div.dataset.id = army.id;
+        div.textContent = army.name;
+
+        // Mark as selected if this is the currently selected army
+        if (army.id === selectedArmyId) {
+            div.classList.add('selected');
+        }
+
+        div.addEventListener('click', () => {
+            // Remove selected class from all options
+            armyDropdownEl.querySelectorAll('.army-option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            // Add selected class to clicked option
+            div.classList.add('selected');
+            selectedArmyId = army.id;
+        });
+
+        // Double-click to load
+        div.addEventListener('dblclick', () => {
+            selectedArmyId = army.id;
+            loadArmy();
+        });
+
+        armyDropdownEl.appendChild(div);
     });
 }
 
@@ -144,11 +177,11 @@ function loadTroopTypes() {
 
 // Load army data from local files
 async function loadArmy() {
-    const armyId = armySelectEl.value;
-    if (!armyId) {
+    if (!selectedArmyId) {
         showError('Please select an army from the list');
         return;
     }
+    const armyId = selectedArmyId;
 
     showLoading(true);
     hideError();

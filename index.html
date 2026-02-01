@@ -14,11 +14,12 @@
 
         <section class="army-loader">
             <div class="army-select-wrapper">
-                <label for="armySelect">Select Army:</label>
+                <label for="armySearch">Select Army:</label>
                 <input type="text" id="armySearch" placeholder="Type to search armies..." autocomplete="off">
-                <select id="armySelect" size="8">
-                    <option value="">-- Select an army --</option>
-                </select>
+                <div id="resultsCount" class="results-count">656 armies available</div>
+                <div id="armyDropdown" class="army-dropdown">
+                    <!-- Army options will be populated here -->
+                </div>
             </div>
             <button id="loadArmy">Load Army</button>
         </section>
