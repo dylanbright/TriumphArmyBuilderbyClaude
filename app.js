@@ -109,6 +109,16 @@ document.addEventListener('DOMContentLoaded', () => {
 function populateArmyDropdown(filter = '') {
     armyDropdownEl.innerHTML = '';
 
+    // Check if army data is available
+    if (typeof ARMY_LISTS_DATA === 'undefined' || !ARMY_LISTS_DATA) {
+        const div = document.createElement('div');
+        div.className = 'army-option no-results';
+        div.textContent = 'Error: Army data not loaded';
+        armyDropdownEl.appendChild(div);
+        resultsCountEl.textContent = 'Error loading data';
+        return;
+    }
+
     const filterLower = filter.toLowerCase();
     const filteredArmies = filter
         ? ARMY_LISTS_DATA.filter(army => army.name.toLowerCase().includes(filterLower))
@@ -118,7 +128,7 @@ function populateArmyDropdown(filter = '') {
     if (filter) {
         resultsCountEl.textContent = `${filteredArmies.length} of ${ARMY_LISTS_DATA.length} armies match`;
     } else {
-        resultsCountEl.textContent = `${ARMY_LISTS_DATA.length} armies available`;
+        resultsCountEl.textContent = `${ARMY_LISTS_DATA.length} armies - scroll or search`;
     }
 
     if (filteredArmies.length === 0) {
@@ -128,6 +138,9 @@ function populateArmyDropdown(filter = '') {
         armyDropdownEl.appendChild(div);
         return;
     }
+
+    // Create a document fragment for better performance
+    const fragment = document.createDocumentFragment();
 
     filteredArmies.forEach(army => {
         const div = document.createElement('div');
@@ -156,8 +169,10 @@ function populateArmyDropdown(filter = '') {
             loadArmy();
         });
 
-        armyDropdownEl.appendChild(div);
+        fragment.appendChild(div);
     });
+
+    armyDropdownEl.appendChild(fragment);
 }
 
 // Filter army list based on search input
