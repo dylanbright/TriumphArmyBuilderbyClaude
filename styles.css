@@ -241,6 +241,48 @@ header h1 {
     border-color: #5a5a7a;
 }
 
+.troop-card.troop-disabled {
+    opacity: 0.5;
+    border-color: #2a2a4a;
+}
+
+.troop-card.troop-disabled:hover {
+    border-color: #2a2a4a;
+}
+
+.conditional-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background-color: #3a3a5a;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.conditional-toggle input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #c9a227;
+}
+
+.conditional-toggle span {
+    color: #aaa;
+}
+
+.conditional-note {
+    font-size: 0.85rem;
+    color: #fca5a5;
+    background-color: #3a2a2a;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
 .troop-card.battle-line {
     border-left: 4px solid #c9a227;
 }

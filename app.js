@@ -178,10 +178,14 @@ async function loadArmy() {
                     battleCardSelections[bc.battleCardCode] = false;
                 });
             }
+            // Check if this is a conditional option (has a note)
+            const isConditional = option.note && option.note.trim().length > 0;
             troopSelections[index] = {
                 count: option.min,
                 selectedTroopTypeIndex: 0,
-                battleCards: battleCardSelections
+                battleCards: battleCardSelections,
+                enabled: true,  // All options start enabled
+                isConditional: isConditional
             };
         });
 
@@ -331,14 +335,21 @@ function createTroopCard(option, index) {
     }
 
     const selection = troopSelections[index];
+    const isDisabled = !selection.enabled;
+
+    // Add disabled class if option is disabled
+    if (isDisabled) {
+        card.classList.add('troop-disabled');
+    }
+
     const selectedTroopEntry = option.troopEntries[selection.selectedTroopTypeIndex];
     const troopType = troopTypes[selectedTroopEntry.troopTypeCode];
     const cost = troopType ? troopType.cost : 0;
-    const troopPoints = selection.count * cost;
+    const troopPoints = isDisabled ? 0 : selection.count * cost;
 
     // Calculate battle card costs for this troop option
     let battleCardPoints = 0;
-    if (option.battleCardEntries && selection.battleCards) {
+    if (!isDisabled && option.battleCardEntries && selection.battleCards) {
         option.battleCardEntries.forEach(bc => {
             if (selection.battleCards[bc.battleCardCode]) {
                 const cardData = BATTLE_CARDS_DATA[bc.battleCardCode];
@@ -361,6 +372,39 @@ function createTroopCard(option, index) {
     const titleDiv = document.createElement('div');
     titleDiv.className = 'troop-title';
 
+    // Add conditional toggle if this option has a note
+    if (selection.isConditional) {
+        const conditionalToggle = document.createElement('label');
+        conditionalToggle.className = 'conditional-toggle';
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.checked = selection.enabled;
+        checkbox.addEventListener('change', (e) => {
+            selection.enabled = e.target.checked;
+            if (!e.target.checked) {
+                selection.count = 0;
+            } else {
+                selection.count = option.min;
+            }
+            renderTroopOptions();
+            updateTotalPoints();
+        });
+
+        const toggleLabel = document.createElement('span');
+        toggleLabel.textContent = 'Include';
+
+        conditionalToggle.appendChild(checkbox);
+        conditionalToggle.appendChild(toggleLabel);
+        titleDiv.appendChild(conditionalToggle);
+
+        // Show the note prominently
+        const noteDiv = document.createElement('div');
+        noteDiv.className = 'conditional-note';
+        noteDiv.textContent = option.note;
+        titleDiv.appendChild(noteDiv);
+    }
+
     const description = document.createElement('div');
     description.className = 'troop-description';
     description.textContent = option.description;
@@ -379,11 +423,14 @@ function createTroopCard(option, index) {
     const controls = document.createElement('div');
     controls.className = 'troop-controls';
 
+    // When disabled, min is effectively 0; when enabled, use the option's min
+    const effectiveMin = isDisabled ? 0 : (selection.isConditional ? 0 : option.min);
+
     const minusBtn = document.createElement('button');
     minusBtn.textContent = '-';
-    minusBtn.disabled = selection.count <= option.min;
+    minusBtn.disabled = isDisabled || selection.count <= effectiveMin;
     minusBtn.addEventListener('click', () => {
-        if (selection.count > option.min) {
+        if (selection.count > effectiveMin) {
             selection.count--;
             renderTroopOptions();
             updateTotalPoints();
@@ -396,7 +443,7 @@ function createTroopCard(option, index) {
 
     const plusBtn = document.createElement('button');
     plusBtn.textContent = '+';
-    plusBtn.disabled = selection.count >= option.max;
+    plusBtn.disabled = isDisabled || selection.count >= option.max;
     plusBtn.addEventListener('click', () => {
         if (selection.count < option.max) {
             selection.count++;
@@ -523,8 +570,8 @@ function createTroopCard(option, index) {
         card.appendChild(battleCardsDiv);
     }
 
-    // Restrictions/Notes
-    if (option.note && option.note.trim()) {
+    // Restrictions/Notes (only show if not already displayed as conditional note)
+    if (option.note && option.note.trim() && !selection.isConditional) {
         const restrictions = document.createElement('span');
         restrictions.className = 'meta-item restrictions';
         restrictions.textContent = option.note;
@@ -554,6 +601,10 @@ function updateTotalPoints() {
 
     armyData.troopOptions.forEach((option, index) => {
         const selection = troopSelections[index];
+
+        // Skip disabled options
+        if (!selection.enabled) return;
+
         const selectedTroopEntry = option.troopEntries[selection.selectedTroopTypeIndex];
         const troopType = troopTypes[selectedTroopEntry.troopTypeCode];
         const cost = troopType ? troopType.cost : 0;
@@ -607,6 +658,8 @@ function renderSummary(totalPoints) {
     // Collect troop selections
     armyData.troopOptions.forEach((option, index) => {
         const selection = troopSelections[index];
+        // Skip disabled options
+        if (!selection.enabled) return;
         if (selection.count > 0) {
             const selectedTroopEntry = option.troopEntries[selection.selectedTroopTypeIndex];
             const troopType = troopTypes[selectedTroopEntry.troopTypeCode];
@@ -732,6 +785,8 @@ function openPrintView() {
 
     armyData.troopOptions.forEach((option, index) => {
         const selection = troopSelections[index];
+        // Skip disabled options
+        if (!selection.enabled) return;
         if (selection.count > 0) {
             const selectedTroopEntry = option.troopEntries[selection.selectedTroopTypeIndex];
             const troopType = troopTypes[selectedTroopEntry.troopTypeCode];
